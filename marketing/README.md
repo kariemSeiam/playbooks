@@ -34,3 +34,10 @@ of these in the same conversation.
 
 Each note stands alone — read the one relevant to the task, not the whole
 folder start to end.
+
+## Related
+
+- **`../seo/`** — a sibling field, not a subfolder here on purpose: SEO
+  spans client-facing marketing knowledge and this operator's own
+  publishing practice, which a folder living only under `marketing/`
+  would misrepresent.

@@ -27,6 +27,11 @@ from memory thereafter.
 - [preflight-checklist.md](preflight-checklist.md) — the concrete sequence to run, every
   time, before any git/GitHub action with real effect. The other three
   files are the reasoning; this one is the thing to actually execute.
+- [discoverability-checklist.md](discoverability-checklist.md) — the separate checklist for whether a
+  repo will actually be found once it's public: description, topics,
+  README, social preview, the AI-crawler layer when it's earned. A
+  sibling to the preflight checklist, not a replacement — that one is
+  about the safety of the action, this one is about the result.
 
 ## How to use a project-specific override
 

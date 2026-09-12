@@ -13,7 +13,7 @@
 Every session without a playbook starts from zero: the same git discipline
 re-derived from vibes, the same "is this markdown readable or agent-
 navigable" tradeoff guessed at again, the same framework half-remembered
-from a source skimmed once. 139 notes, researched once and consulted every
+from a source skimmed once. 143 notes, researched once and consulted every
 time since, close that gap — and the gap is worth naming precisely, not
 just asserting:
 
@@ -22,7 +22,7 @@ just asserting:
 | Re-deriving commit conventions from whatever feels right this session | `github/` — commit anatomy, a branching-model decision framework, and a preflight checklist that runs the same way every time, before every git or GitHub action |
 | Writing markdown that's either pleasant for a human or navigable for an agent, never both | `language/markdown/` — 13 notes researched from Google's developer style guide, the Diátaxis framework, and the `markdownlint` rule set, on the premise that the two disciplines are actually one |
 | Treating "Skill," "MCP server," and "plugin" as interchangeable jargon | `extensions/` — what each mechanism actually is, when each is the right one, which travel across agent harnesses by open design and which don't, with real external implementations studied in `*/maps/` |
-| A framework applied from a half-remembered summary of a book or a PDF | 110 business notes plus 3 technical ones, one fixed 7-part shape each — definition through watch-outs, every one grounded enough to say something real in front of a client |
+| A framework applied from a half-remembered summary of a book or a PDF | 116 declarative notes — 110 business, 3 technical, 3 SEO — one fixed 7-part shape each, definition through watch-outs, every one grounded enough to say something real in front of a client |
 
 ## What's inside
 
@@ -41,12 +41,13 @@ flowchart LR
     Proc --> ext["extensions/"]
 
     Decl --> se["software-engineering/"]
+    Decl --> seo["seo/"]
     Decl --> biz["7 business fields"]
 
     classDef proc fill:#2b6cb0,stroke:#1a4971,color:#fff
     classDef decl fill:#6E56CF,stroke:#4c3a9e,color:#fff
     class gh,lang,ext proc
-    class se,biz decl
+    class se,seo,biz decl
 ```
 
 **Procedural — how the agent acts**, checked before doing the thing, not
@@ -54,7 +55,7 @@ facts about the world:
 
 | Folder | Notes | Covers |
 |---|---|---|
-| `github/` | 4 | Commit anatomy, branching/concurrency, GitHub's platform-maturity ladder — most of GitHub's ceremony is overhead below a certain project size, and a liability above it if skipped |
+| `github/` | 5 | Commit anatomy, branching/concurrency, GitHub's platform-maturity ladder, and a discoverability checklist for anything made public — most of GitHub's ceremony is overhead below a certain project size, and a liability above it if skipped |
 | `language/markdown/` | 13 | Syntax, voice, document types, frontmatter, GitHub-flavor and Obsidian-flavor rendering, README craft, the `llms.txt` spec, ADRs |
 | `extensions/` | 9 (+1 map) | Skills, MCP servers, plugins — the mechanics, the open ecosystem, and when a plain note earns promotion into an auto-loading Skill |
 
@@ -64,6 +65,7 @@ about its own behavior:
 | Folder | Notes | Covers |
 |---|---|---|
 | `software-engineering/` | 3 | Architecture principles, REST API design, AI agent architecture patterns |
+| `seo/` | 3 | Technical/on-page/off-page fundamentals, Generative Engine Optimization (being cited by an LLM's answer), and GitHub/npm-specific discoverability — its own pillar because it spans client work and this operator's own publishing practice |
 | `finance/` | 13 | Cash flow, burn/runway, valuation, cap tables, unit economics |
 | `marketing/` | 22 | Positioning, growth loops, brand equity, attribution, market research |
 | `strategy/` | 22 | Porter's Five Forces, Wardley Mapping, Blue Ocean — plus a live AI-strategy cluster: governance, maturity models, build-vs-buy |
@@ -77,10 +79,10 @@ not the content, and the same is true one level down.
 
 ## The declarative note shape
 
-Every business and technical note — all 113 of them — follows one fixed
+Every business and technical note — all 116 of them — follows one fixed
 shape, documented canonically in
 [software-engineering/README.md](software-engineering/README.md) so it's stated once, not
-113 times:
+116 times:
 
 <details>
 <summary><b>Definition → When to use → How it works → Example → Applying it for a client → Watch-outs → Related</b></summary>
@@ -152,7 +154,7 @@ in the shape its siblings already use.
 <summary><b>Why isn't this just written into CLAUDE.md directly?</b></summary>
 <br>
 Token budget and scope. CLAUDE.md is loaded every session whether or not
-any of it is relevant to the task at hand; a 139-note vault loaded in full
+any of it is relevant to the task at hand; a 143-note vault loaded in full
 every time would be almost entirely wasted context. Splitting it into
 folders with their own README indexes means only the relevant slice loads
 — the same cover/chapter/appendix discipline <a href="language/markdown/for-agents.md"><code>language/markdown/for-agents.md</code></a>
@@ -173,7 +175,7 @@ notes most exposed to drift.
 </details>
 
 <details>
-<summary><b>What stops this from becoming 139 shallow summaries?</b></summary>
+<summary><b>What stops this from becoming 143 shallow summaries?</b></summary>
 <br>
 The note shape itself, specifically section 5. A note that can't say
 something a consultant would actually tell a client — not restated

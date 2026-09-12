@@ -6,15 +6,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 The agent's own standing law, not a documentation folder. `playbooks/`
 exists to be consulted before acting — on any task, in any project this
-agent touches, not only inside this directory — the same way a
-constitution outranks the memory of one conversation. 157 notes, 11
-folders, month zero: right now it covers git/GitHub discipline, markdown
-craft, how this operator's agents extend themselves (Skills, MCP servers,
-plugins — across Claude Code, OpenCode, and Pi, not just one harness), and
-a first slice of software-engineering and business-domain knowledge. It is meant to keep
-absorbing whatever domain the agent needs real competence in next, one
-researched note at a time — never a finished catalog to browse once and
-consider done.
+agent touches, not only inside this repo — the same way a constitution
+outranks the memory of one conversation. 143 notes, 12 folders, still
+young: right now it covers git/GitHub discipline, markdown craft, how an
+agent extends itself (Skills, MCP servers, plugins — across Claude Code
+and OpenCode, not just one harness), SEO/discoverability, and a first
+slice of software-engineering and business-domain knowledge. It is meant
+to keep absorbing whatever domain the agent needs real competence in
+next, one researched note at a time — never a finished catalog to browse
+once and consider done.
 
 Two different kinds of law live here, flat, no wrapper folder around
 either (`README.md`: a playbook is already a collection of fields, so
@@ -23,19 +23,23 @@ word):
 
 - **Procedural — how the agent behaves.** `github/` (commit anatomy,
   branching/concurrency, GitHub's platform-maturity ladder, a preflight
-  checklist for any git/GitHub action with real effect); `language/
-  markdown/` (syntax, voice, frontmatter, and the agent-consumption rules
-  below — markdown is the first language this category covers, not the
-  only one it's scoped to); `extensions/` (Skills, MCP servers, and
-  plugins — what each is mechanically, which of them travel across
-  harnesses by open design and which don't, and when a note elsewhere in
-  this vault earns promotion into an actual auto-loading Skill instead of
-  a manually-consulted file).
-- **Declarative — what the agent knows.** `software-engineering/` plus
-  the business fields — `finance/`, `marketing/`, `strategy/`,
-  `operations/`, `product-management/`, `people-org/`,
-  `sales-and-bizdev/` — atomic notes distilled from a separate
-  research/sources pipeline, one topic per file.
+  checklist for any git/GitHub action with real effect, a discoverability
+  checklist for anything made public); `language/markdown/` (syntax,
+  voice, frontmatter, and the agent-consumption rules below — markdown is
+  the first language this category covers, not the only one it's scoped
+  to); `extensions/` (Skills, MCP servers, and plugins — what each is
+  mechanically, which of them travel across harnesses by open design and
+  which don't, and when a note elsewhere in this vault earns promotion
+  into an actual auto-loading Skill instead of a manually-consulted
+  file).
+- **Declarative — what the agent knows.** `software-engineering/` and
+  `seo/` (technical/on-page/off-page fundamentals, Generative Engine
+  Optimization, and GitHub/npm-specific discoverability — its own pillar
+  because it spans client-facing marketing knowledge and this repo's own
+  publishing practice) plus the business fields — `finance/`,
+  `marketing/`, `strategy/`, `operations/`, `product-management/`,
+  `people-org/`, `sales-and-bizdev/` — atomic notes distilled from a
+  separate research/sources pipeline, one topic per file.
 
 Each folder's own `README.md` is the index for what it actually holds —
 read that before the content inside it.
@@ -126,10 +130,10 @@ GitHub-facing — prefer Mermaid over hand-aligned ASCII for any non-trivial
 diagram. Two mechanics worth calling out on their own:
 
 - Cross-references use plain relative markdown links
-  (`[filename.md](path)`), not Obsidian `[[wikilinks]]`, even though this
-  is an active Obsidian vault (`.obsidian/` at `/hub/kariem`, one level
-  up) — wikilinks render as literal bracketed text outside Obsidian, and
-  these notes are meant to stay portable and agent-readable outside it too
+  (`[filename.md](path)`), not Obsidian `[[wikilinks]]` — even inside a
+  copy of this repo that also happens to live inside an Obsidian vault,
+  wikilinks render as literal bracketed text everywhere else (GitHub, npm,
+  a plain markdown reader), and these notes are meant to stay portable
   (`language/markdown/obsidian-flavor.md`).
 - Verify a linked file actually exists and is tracked (`git ls-files`)
   before linking to it — a gitignored file 404s for anyone else.
