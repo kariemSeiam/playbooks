@@ -32,6 +32,10 @@ from memory thereafter.
   README, social preview, the AI-crawler layer when it's earned. A
   sibling to the preflight checklist, not a replacement — that one is
   about the safety of the action, this one is about the result.
+- [changelog-and-releases.md](changelog-and-releases.md) — the Keep a Changelog format made
+  canonical instead of assumed, what actually generates an entry, and the
+  concrete steps to cut a release once [platform.md](platform.md)'s trigger conditions
+  are real.
 
 ## How to use a project-specific override
 

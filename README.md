@@ -203,6 +203,6 @@ request.
 
 ---
 
-[MIT License](LICENSE) — the value here is the synthesis and the
-agent-native structure, not exclusive ownership of frameworks like SWOT
-or OKRs that were never proprietary to begin with.
+[Changelog](CHANGELOG.md) · [MIT License](LICENSE) — the value here is
+the synthesis and the agent-native structure, not exclusive ownership of
+frameworks like SWOT or OKRs that were never proprietary to begin with.

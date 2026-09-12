@@ -34,7 +34,7 @@ or [voice.md](voice.md), not a personal preference invented here:
 | MD003 | `atx` style | [syntax.md](syntax.md): "ATX style, never Setext" |
 | MD004 | `dash` bullets | [syntax.md](syntax.md): "one consistent bullet marker" |
 | MD013 (line length) | off | Not a rule this playbook states anywhere — leaving it on would invent a constraint and fail every existing file |
-| MD024 (duplicate headings) | `siblings_only` | Allows the Keep-a-Changelog pattern (repeated `### Security` under different version headings) that [github-flavor.md](github-flavor.md)'s worked example and this vault's own `CHANGELOG.md`s rely on, while still catching a real collision within the same section |
+| MD024 (duplicate headings) | `siblings_only` | Allows the Keep-a-Changelog pattern (repeated `### Security` under different version headings) that `../github/changelog-and-releases.md`'s worked example and this repo's own `CHANGELOG.md` rely on, while still catching a real collision within the same section |
 | MD029 | ordered-list style `one` | [syntax.md](syntax.md): "all-`1.` for lists that will be edited over time" |
 | MD033 (no inline HTML) | **off** | [syntax.md](syntax.md) and [github-flavor.md](github-flavor.md) both deliberately endorse HTML escape hatches (`<details>`, `<div align>`, `<picture>`) — the default-on behavior would flag every one of them |
 | MD041 (must start with H1) | **off** | [frontmatter.md](frontmatter.md) covers files that legitimately start with a YAML block before any heading |
