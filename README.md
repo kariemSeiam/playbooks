@@ -2,6 +2,7 @@
 
 Standing law and standing knowledge for an agent that reads before it acts, not after.
 
+[![lint-docs](https://github.com/kariemSeiam/playbooks/actions/workflows/lint-docs.yml/badge.svg)](https://github.com/kariemSeiam/playbooks/actions/workflows/lint-docs.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **[Why this exists](#why-this-exists) · [What's inside](#whats-inside) · [The note shape](#the-declarative-note-shape) · [Extensions](#extensions--the-newest-pillar) · [How to use this](#how-to-use-this) · [FAQ](#faq)**
