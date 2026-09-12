@@ -1,1 +1,5 @@
 .venom/
+
+# Obsidian personal UI state (not the vault config itself)
+.obsidian/workspace*.json
+.obsidian/cache
