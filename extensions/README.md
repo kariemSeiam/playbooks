@@ -43,10 +43,11 @@ substance split across focused files underneath it.
 
 ## Files in this folder
 
-- [onboarding-prompt.md](onboarding-prompt.md) — the publisher's side of all of this: how
-  to write the copy-paste block that turns a reader's own agent into the
-  installer, and the five things it has to control end to end because the
-  moment it's pasted there's no steering left.
+- [onboarding-prompt.md](onboarding-prompt.md) — the publisher's side of all of this:
+  writing install instructions for an executor that can think. The dial
+  between delegating environment judgment and constraining consequences,
+  the five boundaries that fall out of it, this repo's own block read
+  line by line, and an honest list of what's still wrong with it.
 
 ## Why Skills and MCP travel across harnesses and plugins mostly don't
 
