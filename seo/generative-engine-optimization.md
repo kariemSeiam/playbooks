@@ -48,7 +48,7 @@ that only answers the exact top-level question, and not the sub-questions
 underneath it, is invisible to most of the fan-out even if it would have
 ranked well for the literal query in traditional search.
 
-**The tactics with the strongest evidence, in order of leverage:**
+**The tactics with the strongest evidence, most effect first:**
 
 1. **Build on solid traditional SEO first** — GEO doesn't replace the
    three pillars (`fundamentals.md`); it adds a layer on top. Content a
@@ -106,7 +106,7 @@ equivalent of a rank-tracking baseline and it's cheap to run manually
 before recommending any work. When a gap is real, prioritize the
 comparison/best-of content type and the technical layer (llms.txt,
 crawler permissions, schema) before broad content expansion — those are
-the highest-leverage, fastest-to-ship items per the tactic ranking above,
+the items with the most effect for the least work, per the ranking above,
 and they're checkable in a way vague "write more authoritative content"
 advice isn't.
 

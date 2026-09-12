@@ -59,9 +59,9 @@ markdown pipeline than GitHub's own page.
 **Social preview (Open Graph) is a distinct signal, not a ranking
 factor.** The `og:image` a repo (or any linked page) ships controls how
 it appears when shared on Slack, Discord, X, LinkedIn, or iMessage — not
-a search-ranking input, but the single highest-leverage lever for
-click-through once a link is already being shared, since it's the first
-thing a recipient sees before the description.
+a search-ranking input, but the thing that most affects whether a shared
+link gets clicked, since it's the first thing a recipient sees — before
+the description, before the repo name.
 
 **Technical crawlability still applies, adapted to the surface.** A
 documentation site sitting alongside the repo (not the repo page itself)

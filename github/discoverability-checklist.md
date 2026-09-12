@@ -58,9 +58,9 @@ real audience yet.
 
 ## 6. License
 
-A real `LICENSE` file, chosen deliberately (not defaulted) — this also
-unlocks the one badge that's never decorative: a license badge answers a
-real due-diligence question the moment there's a file backing it,
+A real `LICENSE` file, chosen deliberately (not defaulted). It also makes
+the one never-decorative badge honest: a license badge answers a real
+question the moment there's a file behind it,
 per [readme-craft.md](../language/markdown/readme-craft.md)'s badge rule.
 
 ## What this checklist is not
