@@ -69,7 +69,7 @@ commit → usually nothing, unless the docs change is itself
 user-facing (a corrected public-facing claim, say). Write the entry at
 the same time as the commit it corresponds to, in the `[Unreleased]`
 section — reconstructing a changelog from history after the fact, the
-way this repo's own `CHANGELOG.md` had to be for its first two versions,
+way this repo's own [CHANGELOG.md](../CHANGELOG.md) had to be for its first two versions,
 is strictly worse: detail gets lost, and "what a consumer would care
 about" is a harder judgment call in hindsight than in the moment.
 

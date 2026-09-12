@@ -14,7 +14,7 @@ Standing law and standing knowledge for an agent that reads before it acts, not 
 Every session without a playbook starts from zero: the same git discipline
 re-derived from vibes, the same "is this markdown readable or agent-
 navigable" tradeoff guessed at again, the same framework half-remembered
-from a source skimmed once. 144 notes, researched once and consulted every
+from a source skimmed once. 145 notes, researched once and consulted every
 time since, close that gap — and the gap is worth naming precisely, not
 just asserting:
 
@@ -23,7 +23,7 @@ just asserting:
 | Re-deriving commit conventions from whatever feels right this session | `github/` — commit anatomy, a branching-model decision framework, and a preflight checklist that runs the same way every time, before every git or GitHub action |
 | Writing markdown that's either pleasant for a human or navigable for an agent, never both | `language/markdown/` — 13 notes researched from Google's developer style guide, the Diátaxis framework, and the `markdownlint` rule set, on the premise that the two disciplines are actually one |
 | Treating "Skill," "MCP server," and "plugin" as interchangeable jargon | `extensions/` — what each mechanism actually is, when each is the right one, which travel across agent harnesses by open design and which don't, with real external implementations studied in `*/maps/` |
-| A framework applied from a half-remembered summary of a book or a PDF | 116 declarative notes — 110 business, 3 technical, 3 SEO — one fixed 7-part shape each, definition through watch-outs, every one grounded enough to say something real in front of a client |
+| A framework applied from a half-remembered summary of a book or a PDF | 117 declarative notes — 111 business, 3 technical, 3 SEO — one fixed 7-part shape each, definition through watch-outs, every one grounded enough to say something real in front of a client |
 
 ## Use it — paste this into your agent
 
@@ -101,7 +101,7 @@ about its own behavior:
 | `strategy/` | 22 | Porter's Five Forces, Wardley Mapping, Blue Ocean — plus a live AI-strategy cluster: governance, maturity models, build-vs-buy |
 | `operations/` | 18 | ISO/SOC 2/HIPAA compliance sitting next to Lean Six Sigma, TQM, theory of constraints — how the operation runs and how it proves it |
 | `product-management/` | 22 | Discovery, prioritization, roadmapping, OKRs, delivery methodology |
-| `people-org/` | 7 | Org design, team topologies, decision rights, team development |
+| `people-org/` | 8 | Org design, team topologies, decision rights, team development, resume/CV craft |
 | `sales-and-bizdev/` | 6 | Qualification frameworks, selling methodology, pipeline/revenue ops |
 
 Read each folder's own README before its content — this file is the map,
@@ -109,10 +109,10 @@ not the content, and the same is true one level down.
 
 ## The declarative note shape
 
-Every business and technical note — all 116 of them — follows one fixed
+Every business and technical note — all 117 of them — follows one fixed
 shape, documented canonically in
 [software-engineering/README.md](software-engineering/README.md) so it's stated once, not
-116 times:
+117 times:
 
 <details>
 <summary><b>Definition → When to use → How it works → Example → Applying it for a client → Watch-outs → Related</b></summary>
@@ -184,7 +184,7 @@ in the shape its siblings already use.
 <summary><b>Why isn't this just written into CLAUDE.md directly?</b></summary>
 <br>
 Token budget and scope. CLAUDE.md is loaded every session whether or not
-any of it is relevant to the task at hand; a 144-note vault loaded in full
+any of it is relevant to the task at hand; a 145-note vault loaded in full
 every time would be almost entirely wasted context. Splitting it into
 folders with their own README indexes means only the relevant slice loads
 — the same cover/chapter/appendix discipline <a href="language/markdown/for-agents.md"><code>language/markdown/for-agents.md</code></a>
@@ -205,7 +205,7 @@ notes most exposed to drift.
 </details>
 
 <details>
-<summary><b>What stops this from becoming 144 shallow summaries?</b></summary>
+<summary><b>What stops this from becoming 145 shallow summaries?</b></summary>
 <br>
 The note shape itself, specifically section 5. A note that can't say
 something a consultant would actually tell a client — not restated

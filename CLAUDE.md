@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 The agent's own standing law, not a documentation folder. `playbooks/`
 exists to be consulted before acting — on any task, in any project this
 agent touches, not only inside this repo — the same way a constitution
-outranks the memory of one conversation. 144 notes, 12 folders, still
+outranks the memory of one conversation. 145 notes, 12 folders, still
 young: right now it covers git/GitHub discipline, markdown craft, how an
 agent extends itself (Skills, MCP servers, plugins — across Claude Code
 and OpenCode, not just one harness), SEO/discoverability, and a first
