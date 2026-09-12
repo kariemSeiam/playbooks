@@ -75,6 +75,7 @@ observability as a result — none of which the diff itself contains.
 ## Footer — machine-readable trailers, only when there's a real one
 
 Blank line after the body, then `Key: value` trailers:
+
 - `Fixes #123` / `Closes #123` — auto-closes an issue tracker item on
   merge to the default branch (GitHub, GitLab, and most trackers honor
   this convention).

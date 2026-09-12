@@ -16,6 +16,7 @@ Reach for this framing whenever you're diagnosing why a product effort is stuck,
 ## How it works
 
 **The three-circle bridge.** Product management sits at the overlap of three domains that otherwise operate independently:
+
 - **Customer** — what people actually need and will pay for
 - **Business** — what the company needs (revenue, margin, strategic fit)
 - **Technology** — what can actually be built with the resources available

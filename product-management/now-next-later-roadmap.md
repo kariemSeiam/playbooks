@@ -10,6 +10,7 @@ tags: [roadmap, planning, outcomes, commitment]
 A Now-Next-Later roadmap organizes work into three loose time horizons instead of a date-based Gantt chart or a quarter-by-quarter release schedule — deliberately trading date-precision for commitment-honesty: it communicates relative priority and confidence without implying a delivery date the team can't actually guarantee. Janna Bastow, co-founder of the roadmapping tool ProdPad, originated the format as a reaction to how dated roadmaps get treated as broken promises the moment reality shifts (which, on anything further out than a sprint or two, is most of the time); the outcome-over-output principle that should populate each column comes from Josh Seiden's writing, which argues roadmap items should be framed as outcomes to achieve, not features to ship. A consultant needs this distinct from the "Now/Next/Later" categorization inside [prioritization-techniques.md](prioritization-techniques.md) — that one buckets individual features by urgency; this is a full roadmap *format*, built around outcomes and honest uncertainty.
 
 ## When to use
+
 - A client's current roadmap is a dated Gantt or release schedule that keeps "breaking" — treated as a promise, then causing trust damage with stakeholders every time a date slips.
 - Communicating a roadmap to external stakeholders (customers, the board, partners) who need relative priority and direction without being given a commitment the team can't defend under real uncertainty.
 - Early-stage or fast-moving products where specific dates 2+ quarters out are close to fictional — the format is designed to be honest about that uncertainty instead of hiding it behind false precision.
@@ -18,14 +19,17 @@ A Now-Next-Later roadmap organizes work into three loose time horizons instead o
 ## How it works
 
 ### The three columns — defined by confidence, not calendar dates
+
 - **Now** — what the team is actively working on this cycle. High confidence, high commitment — effectively the current sprint or quarter's committed work, validated and resourced. Roughly equivalent to a Scrum team's current Sprint/Release Backlog, but framed at outcome-level rather than task-level.
 - **Next** — what's coming after Now, directionally clear but not yet locked into a specific solution or exact timing. Medium confidence — validated as a priority, not yet fully scoped or committed to a delivery window. This is where an Opportunity Solution Tree's validated-but-unbuilt branches typically live (see [continuous-discovery.md](continuous-discovery.md)).
 - **Later** — ideas and directions being watched or explored, not yet validated enough to commit real resources to. Low confidence, explicitly provisional — items here are expected to move, get cut, or get reshaped as more is learned; nobody outside the team should treat a Later item as a promise.
 
 ### The outcome-over-output principle
+
 Each roadmap item should be framed as a problem to solve or an outcome to move ("Reduce time-to-first-value for new teams"), not a feature to ship ("Build a new onboarding wizard"). This matters specifically because a feature-framed item has already made a solution decision before discovery has happened — an outcome-framed item leaves the solution to be discovered by the team (see [continuous-discovery.md](continuous-discovery.md), [product-operating-model.md](product-operating-model.md)), and survives a pivot in approach without needing to be rewritten.
 
 ### Comparison with a date-based (Gantt) roadmap
+
 | | Gantt / date-based roadmap | Now-Next-Later |
 |---|---|---|
 | Precision | Specific dates, specific features | Relative horizon, outcome-framed |
@@ -35,11 +39,13 @@ Each roadmap item should be framed as a problem to solve or an outcome to move (
 | Failure mode | False precision — hides real uncertainty until it surfaces as a missed date | Can be used to dodge real accountability if "Now" items are never actually delivered either |
 
 ### Operating cadence
+
 Review and re-sort the three columns on a regular cadence, commonly aligned to the OKR/quarterly cycle — items move Later → Next → Now as discovery validates them (or get cut entirely), and Now items graduate off the roadmap once shipped and measured. The roadmap is a living, constantly re-sorted artifact, not a document finalized once per planning cycle and left static.
 
 ## Example
 
 A B2B analytics product's Now-Next-Later roadmap, framed outcome-first:
+
 - **Now:** "Reduce time-to-first-dashboard for new admins from 6 days to 2 days" — this quarter's committed OKR Key Result; a specific onboarding-flow redesign is already in build, discovered via continuous discovery.
 - **Next:** "Increase weekly active dashboard viewers per account" — validated as a priority via interviews revealing dashboards are built once and rarely revisited, but the specific solution (scheduled email digests, Slack alerts, or an in-app nudge) hasn't been decided, pending assumption testing.
 - **Later:** "Explore whether an API/webhook layer for automated consumers of dashboard data is worth building" — a direction the team is watching given early customer signals, not yet validated enough to commit discovery time to, let alone build.

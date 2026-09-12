@@ -10,6 +10,7 @@ tags: [ai, governance, regulation, risk, compliance, nist, eu-ai-act]
 The two most consequential AI governance references a consultant needs today are a voluntary US risk-management framework, the NIST AI RMF, which most organizations — including outside the US — use as a practical governance blueprint, and a binding EU regulation, the AI Act, the first comprehensive risk-tiered legal regime for AI, with extraterritorial reach (it applies to any AI system placed on the EU market or affecting people in the EU, regardless of where the provider is based) and fines larger than GDPR's. A consultant advising on AI adoption needs both: NIST for "how do we actually manage AI risk well," and the EU Act for "what are we legally required to do, and by when."
 
 ## When to use
+
 - A client is deploying or procuring AI systems and needs a defensible governance process, not ad hoc review
 - Any client with EU customers, EU operations, or an AI system whose output could affect people in the EU, regardless of where the company is headquartered
 - A board or audit committee wants assurance that AI risk is managed against a recognized framework, not an internal checklist
@@ -19,6 +20,7 @@ The two most consequential AI governance references a consultant needs today are
 ## How it works
 
 ### NIST AI Risk Management Framework (AI RMF 1.0, 2023)
+
 Voluntary and framework-agnostic — not tied to any specific regulation — organized around four functions applied iteratively across the AI lifecycle rather than as a one-time linear checklist:
 
 | Function | Focus | Example activities |
@@ -31,7 +33,9 @@ Voluntary and framework-agnostic — not tied to any specific regulation — org
 Govern is architecturally distinct: it isn't a discrete phase that finishes before Map begins, it's the cross-cutting governance layer that shapes how the other three are actually carried out throughout the AI system's lifecycle. NIST also publishes a companion "AI RMF Playbook" with suggested actions per subcategory, useful as a working checklist alongside the deliberately abstract core framework document.
 
 ### EU AI Act — risk-based tiers and phased dates
+
 The Act classifies AI systems into risk tiers with different obligations:
+
 - **Unacceptable risk (prohibited)** — banned outright: social scoring, subliminal manipulation, untargeted facial-recognition scraping, real-time biometric categorization in most public contexts, emotion inference in workplaces and schools
 - **High risk** — permitted but heavily regulated (conformity assessment, technical documentation, human oversight, logging): covers systems in biometrics, critical infrastructure, education, employment, essential services, law enforcement, migration/asylum/border control
 - **Limited risk** — transparency obligations only, e.g., disclosing that a user is interacting with an AI system, labeling AI-generated or deepfake content
@@ -58,6 +62,7 @@ A US-based HR-tech vendor sells an AI resume-screening tool to companies with op
 Run NIST AI RMF as the practical, ongoing governance operating system regardless of jurisdiction — Govern/Map/Measure/Manage gives a defensible structure even for clients with no EU exposure, and increasingly shows up as the reference framework enterprise customers ask vendors about in security questionnaires. Separately and explicitly, run an EU AI Act applicability check as a distinct legal-exposure question: does the client place any AI system on the EU market, or does its output affect people located in the EU? If yes, classify each system into the Act's risk tiers before anything else — the tier determines the entire compliance burden, and clients regularly underestimate whether their system counts as "high-risk" (HR/employment and biometric use cases are the categories most commonly missed). Treat the phased dates as a compliance calendar to build backward from, and flag the Digital Omnibus revision explicitly — a client planning against the original Aug 2026 high-risk deadline may be over- or under-prioritizing relative to the current Dec 2027 date, and this kind of regulatory timeline is exactly the sort of fact to re-verify before quoting to a client rather than repeat from memory.
 
 ## Watch-outs
+
 - NIST AI RMF is voluntary and non-binding — following it is good practice and increasingly an expected baseline, but it does not by itself satisfy any specific legal obligation like the EU AI Act's
 - The EU AI Act's territorial reach catches non-EU companies — "we're not based in Europe" is not a defensible reason to skip the applicability assessment if EU users or customers are in scope
 - Risk-tier misclassification is the highest-stakes mistake — treating a high-risk system (an AI tool used in hiring decisions) as limited or minimal risk because its output "is just a recommendation" is common and expensive; human-in-the-loop framing doesn't automatically downgrade the tier
@@ -65,6 +70,7 @@ Run NIST AI RMF as the practical, ongoing governance operating system regardless
 - Governance frameworks (NIST) and legal compliance (EU AI Act) are complementary, not substitutes — a client can be fully NIST-aligned and still in violation of specific EU AI Act obligations, and vice versa; don't let a client conflate "we have a responsible-AI framework" with "we are legally compliant in every market we operate in"
 
 ## Related
+
 - [ai-maturity-models.md](../strategy/ai-maturity-models.md) — governance maturity separates Gartner's later maturity stages from earlier ones; an organization can't credibly claim high maturity without a governance function
 - [ai-build-vs-buy.md](../strategy/ai-build-vs-buy.md) — vendor governance posture (does the vendor's tool already handle NIST/EU AI Act obligations) is a real input into the build-vs-buy decision, not just cost or differentiation
 - [crisp-dm-mlops.md](../strategy/crisp-dm-mlops.md) — Measure and Manage (NIST) map onto CRISP-DM's Evaluation and Deployment/monitoring phases for teams actually building models in-house

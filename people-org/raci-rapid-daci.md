@@ -67,6 +67,7 @@ DACI's distinguishing feature versus RAPID is separating "who drives the process
 A retail client is choosing a new POS vendor — three finalists, four stakeholders (CFO, Head of Retail Ops, IT Director, CEO) stuck in a fourth meeting re-arguing the same trade-offs.
 
 Applying RAPID:
+
 - **Recommend:** Head of Retail Ops — builds the comparison, runs vendor demos, drafts the recommendation.
 - **Input:** IT Director (integration risk), Store Managers (usability feedback), Finance analyst (total cost of ownership).
 - **Agree:** CFO — must sign off because the contract commits multi-year spend; holds real veto on cost terms only.

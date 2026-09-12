@@ -33,6 +33,7 @@ The matrix crosses two axes — **Products** (existing vs. new) and **Markets** 
 **3. Market Development** — take the existing product into a new market. Mechanisms: geographic expansion, new customer segments, new distribution channels, new use cases for the same product. Risk comes from market unknowns (regulatory environment, customer behavior, competitive landscape, channel relationships), but product risk is low because the offering itself is already proven.
 
 **4. Diversification** — new products for new markets simultaneously. The highest-risk quadrant because both major unknowns compound at once: neither the product-market fit nor the operational capability to deliver it has been established. Ansoff further split this into:
+
 - **Related diversification** — the new business shares some link (technology, customers, channels, brand) with the existing business, reducing risk somewhat.
 - **Unrelated diversification** — no meaningful link to the existing business; essentially a new venture funded by the existing one, carrying the least ability to leverage existing capability.
 

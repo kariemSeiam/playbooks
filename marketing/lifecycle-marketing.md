@@ -10,6 +10,7 @@ tags: [crm, retention, automation, lifecycle, triggers]
 Lifecycle marketing manages a customer through defined behavioral stages — Acquisition → Activation → Retention → Advocacy, often extended with Revenue/Expansion and Re-engagement/Win-back — using triggered, behavior-based messaging keyed to what an individual customer has actually done, rather than sending the same broadcast campaign to every contact on a fixed calendar. It's the operational engine behind [building-customer-relationships.md](../marketing/building-customer-relationships.md)'s retention mandate, powered by a Customer Data Platform (CDP) or equivalent unified customer record that lets messaging respond to real-time behavior instead of a static list.
 
 ## When to use
+
 - A client's only "retention" activity is a generic monthly newsletter to the full list, regardless of what any individual subscriber has actually done
 - A product has decent sign-up volume but weak activation — users sign up and never reach the moment the product's value clicks
 - A subscription or repeat-purchase business needs to catch churn signals (declining usage, a lapsed purchase window) before the customer actually leaves, not after
@@ -19,6 +20,7 @@ Lifecycle marketing manages a customer through defined behavioral stages — Acq
 ## How it works
 
 **The stage model:**
+
 1. **Acquisition** — a prospect becomes a lead or customer, the handoff point from STP- and 4Ps-driven campaigns into lifecycle ownership.
 2. **Activation** — the customer reaches their first real value moment, not just "signed up" — the specific action correlating with actually understanding or using the product (sometimes called the "aha moment").
 3. **Retention** — the customer keeps returning, purchasing, or using the product at a healthy cadence; this stage is where churn-risk signals are monitored and intervened on.
@@ -49,12 +51,14 @@ A DTC skincare subscription brand runs each stage distinctly. **Acquisition** �
 Before recommending any lifecycle tooling, map the client's stages first and identify, per stage, what data already exists to detect the trigger and what's missing — most clients discover the real blocker isn't messaging creativity but that purchase or usage data lives in a system disconnected from whatever sends email or SMS, so no trigger can actually fire on it. Prioritize Activation before Retention for early-stage or high-churn clients — a leaky activation stage means retention and win-back efforts are trying to save customers who never got value in the first place, and fixing activation is almost always higher-leverage than a more sophisticated win-back sequence. When proposing win-back specifically, insist on differentiated messaging by lapse reason or segment rather than one generic "we miss you" email, which underperforms a sequence tailored to why customers actually lapse.
 
 ## Watch-outs
+
 - Lifecycle marketing without a real unified customer record collapses into segmented batch email — don't sell a client on it as a strategy deliverable if the underlying data integration doesn't exist yet; that's a data project, not a messaging project.
 - Over-triggering (too many automated messages on too many minor events) produces the same fatigue as batch-and-blast, just personalized — audit trigger frequency per customer, not just per campaign.
 - Activation is frequently mis-defined as "signed up" rather than the specific behavior that predicts real retention — if the client hasn't done the analysis to find their actual activation moment, the whole sequence is built on a guess.
 - Win-back campaigns treated as a single generic message ignore that different lapse reasons need different responses — a price-sensitive lapse and a dissatisfaction lapse call for opposite tactics, and a discount can even reinforce a service-quality complaint if used as the only lever.
 
 ## Related
+
 - [building-customer-relationships.md](../marketing/building-customer-relationships.md) — the retention rationale and tactics this note operationalizes into triggered automation
 - [customer-journey-mapping.md](../marketing/customer-journey-mapping.md) — the stages and touchpoints the journey map documents are what lifecycle triggers act on
 - [growth-loops.md](../marketing/growth-loops.md) — the Advocacy stage is the handoff point into a viral or referral growth loop

@@ -25,6 +25,7 @@ The headline point: market research runs **all the time**, not just at kickoff. 
 ## How it works
 
 **Step 1 — The Methodology.** Before collecting anything, define the process that will get you from a question to actionable insight. Two starting artifacts:
+
 - **Research Question** — open, exploratory framing: *"What are the needs of graduating high school students in identifying their field of study?"* / *"What is the optimal price range for a new national sportswear brand?"* / *"How accepting are people of recycled clothes, and who is the target segment?"*
 - **Hypothesis** — a specific, testable claim to confirm or reject: *"There is a gap in the affordable trustworthy home-nursing sector in Egypt."* / *"Housewives struggle to market their handmade products."* / *"The online shopping market lacks a system that applies quality checks and consumer specifications."*
 
@@ -51,17 +52,20 @@ Always check secondary data first — it's faster and cheaper — and only move 
 The two are sequential partners, not competitors: qualitative research is typically run *first* to figure out what to even ask and to generate hypotheses; quantitative research is run *after* to test those hypotheses at scale and get numbers a business can act on with confidence.
 
 **Qualitative research techniques:**
+
 - **Focus Group Discussions (FGD)** — see full breakdown below.
 - **In-depth Interviews (IDI)** — one-on-one, deep exploration of an individual's experience/motivation, where FGD's group dynamic would suppress candor (sensitive topics, competitive B2B contexts).
 - **Ethnographic Research** — observing behavior in its natural context rather than asking about it, useful when stated preference and actual behavior diverge.
 
 **Focus Group Discussions (FGD) in depth:**
+
 - **What it is**: a discussion with a group of people — typically one moderator plus 4-10 participants. Sub-formats: Mini Groups (4-6 participants) and Focus Groups proper (7-10 participants).
 - **When to use it**: to explore behavior, attitudes, and processes; to address "why," "what," and "how" questions; on topics that are *not* sensitive (sensitive topics push toward IDI instead, where people won't self-censor in front of a group); when you want breadth of reaction rather than depth on any one person.
 - **How it works**: define the target audience; identify respondents who fit a particular "spec" (screening criteria); sessions last 1-3 hours; a moderator guides the discussion; it takes place in a facility where reactions can be observed (in person or via video).
 - **Example use cases**: deciding what type of product to launch in a new market, evaluating concepts for new product development, evaluating concepts for new ad campaigns, gauging attitudes to public health or community issues, testing new banking products/services, understanding shopper habits and category decision-making.
 
 **How to use qualitative data once you have it** (data analysis turns raw transcripts into usable information that supports interpretation — enabling comparisons between groups/sub-groups, ranking important results, identifying similarities/differences between responses, and spotting trends):
+
 1. Design a discussion guide (before fieldwork).
 2. Organize a data collection tool (notes template, recording, coding sheet).
 3. Draw themes from the raw data.
@@ -73,6 +77,7 @@ The two are sequential partners, not competitors: qualitative research is typica
 **Data-collection channels** (the deck lists these under fieldwork technique — they apply mainly to structured/quantitative collection, though some overlap with qualitative fieldwork too): door-to-door, street intercept, CATI/telephonic interviews, Central Location Testing (CLT), mystery shopping/mystery calling, home placement and recall, exit interviews, shopper/aisle interviews, market scanning and in-store observation, online research.
 
 **Overall research-methodology checklist** — six things to nail down before fielding *any* study, qualitative or quantitative:
+
 1. **Customer** — know your customer, know your population (who is the universe you're trying to learn about).
 2. **Sampling** — who will you actually survey/interview out of that population?
 3. **Data collection tool** — what are your unknowns/questions, precisely?
@@ -82,6 +87,7 @@ The two are sequential partners, not competitors: qualitative research is typica
 And always weigh this against **time, cost, and resources** — research can be expensive, and the "right" method on paper is sometimes the wrong one given the team's actual capacity.
 
 **"Moving forward" — getting started on research for a specific client (6 steps):**
+
 1. Identify your market — who are the competitors, what variety do they offer, what's their edge?
 2. Identify your target customer — who is the consumer, why would they choose you, are they potential (i.e. reachable) customers?
 3. Understand your gap areas — where are you in the business life cycle, and what specifically do you need to research?

@@ -10,6 +10,7 @@ tags: [growth, gtm, saas, acquisition, retention]
 Product-Led Growth is a go-to-market motion where the product itself — not a sales team or a marketing campaign — is the primary driver of acquisition, conversion, expansion, and retention: users self-serve their way to value, usually through a free trial or freemium tier, before or instead of ever talking to a salesperson. The term was coined at OpenView Partners around 2016 and codified into a repeatable playbook by Wes Bush's 2019 book of the same name. A consultant needs it to distinguish from sales-led growth (a rep drives the deal) and marketing-led growth (paid/content marketing drives top-of-funnel, sales still closes) — and to know when PLG is genuinely the right motion versus when a client is chasing a trend that doesn't fit their sale.
 
 ## When to use
+
 - Evaluating or designing a SaaS go-to-market motion for a product with a short time-to-value and a low-to-mid price point, where a sales team's cost-per-deal would exceed what the deal is worth.
 - A client's funnel routes every trial or signup through a sales rep by default, leaving self-serve conversion on the table for buyers who'd rather not talk to anyone before trying the product.
 - Designing pricing and packaging — PLG requires explicit choices (what's free, what's gated) that a sales-led pricing model never has to make.
@@ -19,12 +20,14 @@ Product-Led Growth is a go-to-market motion where the product itself — not a s
 ## How it works
 
 ### The flywheel — acquisition, conversion, expansion, retention, all product-driven
+
 - **Acquisition** — the product markets itself via word-of-mouth, viral loops ("invite your team" prompts, shared documents/links exposing the product to non-users), and SEO-friendly free-tier usage (public shared pages indexed by search), instead of or alongside paid ads.
 - **Conversion** (free → paid) — self-serve upgrade flow triggered by hitting a usage limit or needing a gated feature, sold in-product rather than by a rep.
 - **Expansion** — existing paid users grow spend by adding seats or usage themselves, typically without a renewal negotiation, because usage-based or seat-based billing scales automatically.
 - **Retention** — because users self-selected into the product by getting real value, retention is driven by habitual usage rather than contractual lock-in.
 
 ### Free trial vs. freemium — the two dominant models
+
 | | Free Trial | Freemium |
 |---|---|---|
 | Access | Full (or near-full) product, time-limited (e.g., 14 days) | Limited feature set or usage cap, unlimited time |
@@ -33,7 +36,9 @@ Product-Led Growth is a go-to-market motion where the product itself — not a s
 | Risk | Users who don't reach value in time churn before seeing it | Users camp in the free tier indefinitely if the gate is too generous |
 
 ### Where to place the value gate — the central design decision
+
 Bush's framework asks three questions before gating any feature or limit:
+
 1. Does giving this away free drive enough word-of-mouth/virality to be worth it?
 2. Does experiencing this for free create the "aha moment" needed to prove value?
 3. Is this something users would pay to unlock once they've already felt the value?
@@ -41,9 +46,11 @@ Bush's framework asks three questions before gating any feature or limit:
 Gate too early (before the aha moment) and users churn without ever seeing value; gate too late (fully served for free) and there's no reason left to convert.
 
 ### Product Qualified Leads (PQLs)
+
 A PQL is a free or trial user whose in-product behavior — invited 3+ teammates, hit 80% of a usage cap, used a specific high-intent feature — indicates strong buying intent. This replaces or supplements marketing/sales lead scoring with usage-based lead scoring; in a hybrid PLG+SLG motion, sales reaches out only once a user becomes a PQL, not at signup.
 
 ### Metrics that matter (cross-reference [aarrr-pirate-metrics.md](aarrr-pirate-metrics.md) — PLG is a philosophy for optimizing that same funnel primarily through the product)
+
 Time-to-value, activation rate, free-to-paid conversion rate, expansion revenue / net revenue retention (NRR), and virality coefficient (how many new users each existing user brings in).
 
 ## Example

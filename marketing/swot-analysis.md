@@ -27,6 +27,7 @@ The internal/external split is the discipline that matters most: Strengths and W
 ## Example
 
 A handmade-soap startup in Alexandria:
+
 - **Strengths**: founder has a chemistry background, all-natural ingredient sourcing already secured.
 - **Weaknesses**: no e-commerce presence, single-person production limits volume.
 - **Opportunities**: growing consumer interest in natural/organic personal care, rising demand for local Egyptian-made gift products.

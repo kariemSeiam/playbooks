@@ -25,6 +25,7 @@ This structure forces the team to consider three things explicitly: **who** will
 *Example:* "As a customer, I want to be able to search for products by category, so that I can easily find the items I'm looking for."
 
 **Benefits of user stories:**
+
 - Simple and understandable — easy for everyone involved in the project to grasp
 - Focus on user value — helps prioritize features based on their significance to users
 - Promote communication and collaboration — facilitate discussions and keep everyone on the same page
@@ -36,16 +37,19 @@ This structure forces the team to consider three things explicitly: **who** will
 > **Scenario:** (explain the scenario). **Given** (how things begin), **When** (action taken), **Then** (outcome of taking that action).
 
 *Worked example from the deck:*
+
 - **User story:** As a product manager, I want to score potential ideas, so that I can decide what to include on my product roadmap.
 - **Acceptance criteria:** Given that I have added two or more ideas and scored them using the Benefit vs. Cost scoring model, When I click the Rank button, Then ideas are sorted with the top-scoring ideas at the top.
 
 **Why acceptance criteria are needed** (four functions):
+
 1. Managing expectations
 2. Defining scope and reducing ambiguity
 3. Establishing testing criteria for QA
 4. Defending against scope creep mid-sprint
 
 **Traits of effective acceptance criteria:**
+
 - **Testable** — since they form the definition of done for engineers, they need to be easy to test, and results must leave no room for interpretation; tests should reveal straightforward yes/no or pass/fail outcomes
 - **Clear and concise** — this isn't comprehensive documentation; keep criteria as simple and straightforward as possible
 - **Understandable to everyone** — criteria are useless if developers can't understand them; if you're unsure whether something is clear, ask and adjust until it is

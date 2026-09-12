@@ -24,11 +24,13 @@ Interviews first, always, when you don't yet know the shape of the problem — p
 | **Data type** | Non-numeric, descriptive, rich and detailed | Numeric, statistical |
 
 **Interview structure has three levels**, each trading structure for depth:
+
 - **Structured** — standard format, predetermined question set, closed-ended questions, fixed responses. Advantages: easy to analyze (quantified), objective (minimizes interviewer bias). Limitation: lacks depth — can't explore a participant's perspective beyond the fixed questions.
 - **Unstructured** — no set format, free conversation, open-ended and exploratory, qualitative. Advantages: rich data collection, exploration of new topics. Limitations: lack of standardization, time-consuming.
 - **Semi-structured** — combination of structure and flexibility, open-ended questions, qualitative data. Advantages: depth of user understanding + flexibility. Limitation: analysis complexity (qualitative responses are harder to code than fixed-choice ones).
 
 **Areas to explore in an interview** (regardless of structure level):
+
 1. Behavioral — frequency, when and why
 2. Satisfaction
 3. Motives and pains — what's the best part, what's the worst part

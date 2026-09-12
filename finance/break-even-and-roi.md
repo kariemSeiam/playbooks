@@ -25,7 +25,7 @@ Rule of thumb: **the higher the break-even point, the greater the risk the compa
 
 **Formula (units):**
 
-```
+```text
 Break-even (units) = Fixed costs / (Unit price − Variable cost per unit)
 ```
 
@@ -35,7 +35,7 @@ Break-even (units) = Fixed costs / (Unit price − Variable cost per unit)
 
 **Formula (value / revenue):**
 
-```
+```text
 Break-even (value) = Fixed costs / Contribution margin ratio
 Contribution margin ratio = (Unit price − Variable cost per unit) / Unit price
 ```
@@ -43,6 +43,7 @@ Contribution margin ratio = (Unit price − Variable cost per unit) / Unit price
 Sanity check: break-even value always equals break-even units × unit price — use this to catch arithmetic errors, since the ratio form is easy to invert by mistake.
 
 **Why it matters (7 uses):**
+
 1. Gives a benchmark for building long-term business plans.
 2. Helps price products and set minimum sales targets, feeding sales goals and pricing strategy.
 3. Shows how much different strategies (pricing, cost-cutting, volume) move business performance.
@@ -52,11 +53,13 @@ Sanity check: break-even value always equals break-even units × unit price — 
 7. Tells you your loss exposure if sales fall short.
 
 **Factors that push break-even up:**
+
 - Rising customer demand that forces more production (and therefore more production expense) to keep up.
 - Rising variable costs (materials, rent, salaries) while demand/price stay flat.
 - Equipment failure or a faltering production line — output drops below what's needed in the period, and repair itself adds cost.
 
 **Factors that pull break-even down:**
+
 - Raising the unit price (owners often resist this, fearing customer loss — but it directly lowers the units needed to break even).
 - Cutting production/manufacturing costs, which raises profit at the same volume.
 
@@ -78,12 +81,13 @@ Ways to improve it: capture available government grants, arrange/renegotiate exp
 ROI measures the return an investment generated relative to what it cost — a performance ratio used both to judge one investment and to compare the relative efficiency of several. A high ROI means the gain compares favorably to the cost.
 
 **Calculating it — two steps:**
+
 1. **Total the investment's costs**: initial payment, direct and indirect costs incurred, ongoing maintenance costs, and any taxes/fees tied to the investment. All of these must be captured, or the ROI number will be wrong.
 2. **Total the income/profit the investment produced**, over the period the profit was actually realized in.
 
 **Formula:**
 
-```
+```text
 ROI = Net profit / Total investment costs × 100
 ROI = (Total investment income − Total investment costs) / Total investment costs
 ```
@@ -92,7 +96,7 @@ ROI = (Total investment income − Total investment costs) / Total investment co
 
 **Break-even (deck's own numbers):** Fixed costs = 50,000 EGP. Variable cost per unit = 2 EGP. Selling price per unit = 6 EGP.
 
-```
+```text
 Break-even (units) = 50,000 / (6 − 2) = 12,500 units
 Break-even (value)  = 12,500 units × 6 EGP = 75,000 EGP
                     = 50,000 / ((6−2)/6) = 50,000 / 0.667 = 75,000 EGP
@@ -102,7 +106,7 @@ The company must manufacture and sell 12,500 units (75,000 EGP of revenue) to co
 
 **ROI (deck's own numbers):** Spend 1,000 EGP/month on electronic advertising; that spend generates 1,500 EGP in sales revenue.
 
-```
+```text
 ROI = (1,500 − 1,000) / 1,000 = 50%
 ```
 
@@ -110,7 +114,7 @@ For every pound spent on the campaign, the investor gets back 0.5 EGP in net ret
 
 **ROI decision case (deck's own activity, solved):** A founder needs 30,000 EGP to launch a small business and expects 36,000 EGP profit in year one. The alternative is depositing the same 30,000 EGP in a bank at 15% annual interest.
 
-```
+```text
 Business ROI = (36,000 − 30,000) / 30,000 = 20%
 Bank return  = 30,000 × 15% = 4,500 EGP → ROI = 15%
 ```

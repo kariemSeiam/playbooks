@@ -7,6 +7,7 @@ few seconds, whether to keep reading.
 
 ## A nav line beats a Table of Contents, below a certain size
 
+<!-- markdownlint-disable-next-line MD044 -->
 [github-flavor.md](github-flavor.md) already covers a `<details>`-collapsed TOC for a
 README long enough to need real navigation. Below that size, a single
 bold line of anchor links directly under the tagline does the same job
@@ -30,6 +31,7 @@ is checkable at a glance; a claim alone is not.
 
 ## `<details>` as tier-2→tier-3 inside a single reference table
 
+<!-- markdownlint-disable-next-line MD044 -->
 [github-flavor.md](github-flavor.md) already names `<details>`'s legitimate uses (a manual
 TOC, an FAQ, "a secondary detail a scanning reader doesn't need on the
 first pass"). The same mechanic extends one step further: a reference
@@ -70,6 +72,7 @@ map to a real question like one of these, it's decoration — cut it.
 - **[package-readme.md](package-readme.md)** — the rendering-compatibility half of README
   craft; read both before writing one meant for npm/PyPI as well as
   GitHub.
+<!-- markdownlint-disable-next-line MD044 -->
 - **[github-flavor.md](github-flavor.md)** — the `<details>` mechanics this file builds a
   specific pattern on top of.
 - **[for-agents.md](for-agents.md)** — the tiering theory a single-file `<details>`

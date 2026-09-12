@@ -10,6 +10,7 @@ tags: [ai, build-buy, adoption, maturity, technology-strategy]
 AI build-vs-buy is a staged decision framework for how much of an AI capability an organization should build in-house versus buy or partner for, built around empirical evidence that most enterprise GenAI initiatives fail to deliver measurable financial return, and that the failure pattern differs sharply by build/buy choice. MIT's NANDA initiative's 2025 report — based on roughly 150 leader interviews, a 350-employee survey, and analysis of 300 public AI deployments — is the primary empirical anchor: despite $30–40B in enterprise GenAI investment, roughly 95% of organizations saw no measurable P&L impact from their pilots, and vendor partnerships and specialized-tool purchases succeeded at roughly double the rate of internal builds (about 67% versus about 33%). A consultant needs a framework here because "just build it, AI is strategic" and "just buy a tool" are both wrong defaults — the right answer depends on where a specific capability sits relative to the business's actual differentiation.
 
 ## When to use
+
 - A client is under pressure — board, competitors, hype cycle — to "do something with AI" without a clear view of which capability to prioritize or how to resource it
 - Evaluating whether to build a custom internal AI/ML capability versus adopting a vendor's out-of-the-box AI product or API
 - A prior internal AI build has stalled or failed to reach production, and the client needs a diagnostic before trying again
@@ -39,6 +40,7 @@ A mid-size retailer wants an AI customer-service capability. **Experiment:** ado
 For every proposed AI initiative, force the differentiation question explicitly first: is this specific capability the thing the client is best in the world at, their actual economic engine (echoing the Hedgehog Concept logic in [flywheel-effect.md](flywheel-effect.md)), or is it a horizontal capability every competitor can buy the same way? Use [wardley-mapping.md](wardley-mapping.md)'s evolution axis directly here: if the underlying AI capability (document summarization, image classification) has moved to Product/Commodity stage industry-wide, buying is almost always correct; only Genesis/Custom-stage capabilities specific to the client's proprietary data justify a build. Push back hard on "build for control/strategic reasons" as a stated rationale without a differentiation argument behind it — the NANDA data says that instinct is empirically the losing bet two-thirds of the time. Structure the engagement itself in stages matching Experiment → Extend → Evolve, with an explicit stage-gate decision (kill, continue, escalate investment) at each transition rather than committing to an open-ended "AI initiative."
 
 ## Watch-outs
+
 - "AI is strategic so we should build it" is not, by itself, a differentiation argument — strategic importance justifies investing attention and budget, not necessarily building the underlying model or infrastructure yourself
 - The 95% no-ROI finding is about pilots that stayed pilots — it is not evidence that AI has no value, but that most organizations haven't gotten past Experiment into an integration (Extend) that actually changes a workflow; don't let a client over-read the statistic as "AI doesn't work"
 - Buy/partner still requires real internal capability — data governance, integration engineering, vendor management — "buy" is not "do nothing," and organizations that buy a tool without investing in adoption and change management fail just as often as failed internal builds
@@ -46,6 +48,7 @@ For every proposed AI initiative, force the differentiation question explicitly 
 - The build/buy decision is per-capability, not per-company — a single organization should expect to be in Experiment on some initiatives, Extend on others, and Evolve on one or two truly differentiating ones, simultaneously
 
 ## Related
+
 - [wardley-mapping.md](../strategy/wardley-mapping.md) — the evolution axis (genesis to commodity) is the direct mechanism for deciding which AI capability, if any, has earned a "build" decision
 - [ai-maturity-models.md](../strategy/ai-maturity-models.md) — build-vs-buy is one specific decision inside the broader organizational AI-maturity journey that note maps
 - [crisp-dm-mlops.md](../strategy/crisp-dm-mlops.md) — once a client has earned an "Evolve" (build) decision, that note's process and lifecycle framework governs how the actual model gets built and operated

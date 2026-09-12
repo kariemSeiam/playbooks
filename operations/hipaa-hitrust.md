@@ -28,6 +28,7 @@ HIPAA (the Health Insurance Portability and Accountability Act, 1996) is US fede
 | **Breach Notification Rule** | Requires notifying affected individuals, HHS, and in larger breaches the media, within specified timeframes after discovering a breach of unsecured PHI. |
 
 The Security Rule's three safeguard categories are where a health-tech consultant spends most of their time:
+
 - **Administrative safeguards** — risk analysis (a specific, required, ongoing activity — not a one-time task), workforce training, access management policies, a designated security official.
 - **Physical safeguards** — facility access controls, workstation security, device and media controls (including secure disposal).
 - **Technical safeguards** — access controls (unique user IDs, automatic logoff), audit controls (logging), integrity controls, transmission security (encryption in transit).

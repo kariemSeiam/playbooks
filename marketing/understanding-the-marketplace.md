@@ -16,6 +16,7 @@ At the start of any engagement, before a client commits to a positioning, a pric
 ## How it works
 
 **What is the market?** A market is a place where two parties gather to facilitate the exchange of goods and services. It can be:
+
 - **Physical** — a store, a stall, a face-to-face exchange.
 - **Virtual** — an e-commerce platform, an app, a digital marketplace.
 - **Hybrid** — both at once (most real businesses today: a store with an online storefront, a service booked online but delivered in person).
@@ -31,6 +32,7 @@ At the start of any engagement, before a client commits to a positioning, a pric
 (Full frameworks: [swot-analysis.md](swot-analysis.md), [pestel-analysis.md](pestel-analysis.md), [competitor-analysis-matrix.md](competitor-analysis-matrix.md), [market-research-methodology.md](market-research-methodology.md).)
 
 **Three quantitative concepts to always ask about, for any market:**
+
 1. **Market Size** (by value or volume) — the total value/quantity of all sales by all businesses in a market sector. Sets the ceiling on how big the opportunity is.
 2. **Market Growth** — the percentage change in market size between two points in time (usually yearly). Tells you if the ceiling is rising or falling.
 3. **Market Share** — the percentage of the total market held by one company or brand. Tells you how big a slice the client (or a competitor) currently holds, and how much room there is to take.

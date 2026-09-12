@@ -18,6 +18,7 @@ Right after market segmentation is done (see [market-segmentation-customer-vs-bu
 **1. Segmentation** — already covered in [market-segmentation-customer-vs-buyer.md](market-segmentation-customer-vs-buyer.md) (Geographic, Demographic, Psychographic, Behavioral variables). STP consumes that output as its starting material.
 
 **2. Targeting** — choosing which segment(s) to actually pursue, evaluated against criteria:
+
 - **Size** — the target segment needs to be large enough to justify the marketing effort spent on it.
 - **Profitability** — it should bring higher revenues and profits than the cost of marketing to it.
 - **Difference** — segments should be genuinely differentiated from each other, and their targeting/messaging differentiated accordingly (if two segments would get the same treatment, they're not really separate segments for strategy purposes).
@@ -25,11 +26,13 @@ Right after market segmentation is done (see [market-segmentation-customer-vs-bu
 - **Accessibility** — assess how easy it is to actually acquire a new customer from this segment (can you reach them, can you convert them) — a large, profitable, distinct segment you can't reach isn't a usable target.
 
 **Targeting strategies** (how many segments to go after, and how):
+
 1. **Undifferentiated Strategy** — one offer for the whole market, ignoring segment differences (mass marketing).
 2. **Single Segment Strategy (Niche Targeting)** — focus on one specific segment exclusively.
 3. **Multi-segment Strategy** — pursue several segments, typically with a distinct offer/message per segment.
 
 **3. Positioning** — for the brand to occupy the right image in the mind of the target customer, relative to alternatives. Three types (often combined):
+
 - **Functional Positioning** — solves a problem.
 - **Symbolic Positioning** — fulfills the self-image, ego, or belongingness need of the customer.
 - **Experiential Positioning** — highlights the elements that connect emotionally with the customer.

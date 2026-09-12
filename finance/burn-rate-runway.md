@@ -20,7 +20,7 @@ Burn rate is how fast a company spends its cash; runway is how long the cash on 
 
 ### Gross burn vs. net burn vs. runway
 
-```
+```text
 Gross burn  = total monthly cash operating expenses (before revenue)
 Net burn    = Gross burn − Monthly cash revenue collected
 Runway (months) = Cash on hand / Net burn
@@ -36,7 +36,7 @@ The question: *if current expenses stay flat and current revenue growth rate con
 
 ### Burn multiple (David Sacks)
 
-```
+```text
 Burn Multiple = Net burn in period / Net new ARR in period
 ```
 
@@ -58,7 +58,7 @@ Elite is under 1.0 at Series A/B and under 0.7 at Series C+. Anything drifting p
 
 **Gross/net burn and runway.** Cash in bank: $3,000,000. Monthly cash revenue: $150,000. Monthly operating expenses: $400,000.
 
-```
+```text
 Gross burn = $400,000/month
 Net burn   = $400,000 − $150,000 = $250,000/month
 Runway     = $3,000,000 / $250,000 = 12 months
@@ -68,7 +68,7 @@ Twelve months is under the 18–24 month target — this company needs to be act
 
 **Burn multiple.** Same company: ARR was $1.2M at the start of the quarter and $1.8M at the end (net new ARR = $600,000 for the quarter). Quarterly net burn = $250,000 × 3 = $750,000.
 
-```
+```text
 Burn Multiple = 750,000 / 600,000 = 1.25
 ```
 

@@ -25,6 +25,7 @@ Porter's core claim: the state of competition in an industry depends on five for
 
 **1. Threat of new entrants**
 New entrants bring capacity and a desire for market share, which pressures prices, costs, and investment. The threat depends on barriers to entry and the reaction incumbents are expected to mount. Key barriers:
+
 - **Economies of scale** — forces entrants to come in at large scale (risking retaliation) or small scale (accepting a cost disadvantage).
 - **Capital requirements** — large up-front investment (R&D, advertising, inventory) deters entry, especially if it's a sunk, unrecoverable cost.
 - **Switching costs** — one-time costs a buyer faces to switch supplier (retraining, new equipment, re-engineering).
@@ -35,6 +36,7 @@ New entrants bring capacity and a desire for market share, which pressures price
 
 **2. Bargaining power of suppliers**
 Suppliers can squeeze industry profitability by raising prices or cutting quality. A supplier group is powerful when:
+
 - It's dominated by few companies and more concentrated than the industry it sells to.
 - Its product has no substitutes.
 - The industry is not an important customer to the supplier group.
@@ -44,6 +46,7 @@ Suppliers can squeeze industry profitability by raising prices or cutting qualit
 
 **3. Bargaining power of buyers**
 Buyers compete with the industry by forcing down prices, demanding higher quality or more service, and playing competitors off against each other. A buyer group is powerful when:
+
 - It's concentrated or purchases large volumes relative to seller sales.
 - The products it purchases are standard/undifferentiated (buyers can always find alternate suppliers).
 - It faces few switching costs.
@@ -57,6 +60,7 @@ Substitutes limit an industry's potential returns by placing a ceiling on the pr
 
 **5. Rivalry among existing competitors**
 Rivalry occurs because competitors feel the pressure or see an opportunity to improve position — through price competition, advertising battles, product introductions, or service increases. Intense rivalry is associated with:
+
 - Numerous or equally balanced competitors (no clear leader to enforce discipline).
 - Slow industry growth (competition becomes a fight for share rather than riding growth).
 - High fixed or storage costs (pressure to fill capacity, often via price cuts).

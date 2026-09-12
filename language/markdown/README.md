@@ -37,12 +37,13 @@ the reasoning kept and the source noted where it matters.
   differently than markdown written purely for a human — indexable
   first, readable second, budgeted in tokens the way a human writer
   budgets a reader's attention.
+<!-- markdownlint-disable-next-line MD044 -->
 - [github-flavor.md](github-flavor.md) — the GitHub-specific rendering layer on top of
   portable markdown: alerts, collapsed sections, Mermaid vs. ASCII
   diagrams, badges, theme-aware images, and the judgment calls (signal
   vs. vanity, when a visual technique earns its place) that separate a
   README that looks designed from one that looks decorated.
-- [obsidian-flavor.md](obsidian-flavor.md) — the vault-specific layer: wikilinks vs.
+- [Obsidian-flavor.md](obsidian-flavor.md) — the vault-specific layer: wikilinks vs.
   markdown links, Obsidian's 13 callout types vs. GitHub's 5 (and which
   direction that compatibility runs), properties, tags. Scoped to core
   Obsidian only — no community-plugin syntax, since this vault has none

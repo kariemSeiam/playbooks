@@ -29,24 +29,43 @@ only where this playbook's own stated rules diverge from the tool's
 defaults — each override traces back to a specific line in [syntax.md](syntax.md)
 or [voice.md](voice.md), not a personal preference invented here:
 
+<!-- markdownlint-disable MD044 -->
 | Rule | Override | Source |
 |---|---|---|
 | MD003 | `atx` style | [syntax.md](syntax.md): "ATX style, never Setext" |
 | MD004 | `dash` bullets | [syntax.md](syntax.md): "one consistent bullet marker" |
 | MD013 (line length) | off | Not a rule this playbook states anywhere — leaving it on would invent a constraint and fail every existing file |
 | MD024 (duplicate headings) | `siblings_only` | Allows the Keep-a-Changelog pattern (repeated `### Security` under different version headings) that `../github/changelog-and-releases.md`'s worked example and this repo's own `CHANGELOG.md` rely on, while still catching a real collision within the same section |
-| MD029 | ordered-list style `one` | [syntax.md](syntax.md): "all-`1.` for lists that will be edited over time" |
+| MD029 | ordered-list style `one_or_ordered` | [syntax.md](syntax.md) permits **both**, conditionally: all-`1.` "for ordered lists that will be edited over time," but "for a short, stable list, sequential numbers are fine." `one_or_ordered` encodes exactly that — either style, as long as a given list is internally consistent. This config previously said `one`, which was stricter than the rule it cited and flagged 288 correct lines; the config was wrong, not the content |
 | MD033 (no inline HTML) | **off** | [syntax.md](syntax.md) and [github-flavor.md](github-flavor.md) both deliberately endorse HTML escape hatches (`<details>`, `<div align>`, `<picture>`) — the default-on behavior would flag every one of them |
 | MD041 (must start with H1) | **off** | [frontmatter.md](frontmatter.md) covers files that legitimately start with a YAML block before any heading |
-<!-- markdownlint-disable-next-line MD044 -->
 | MD044 (proper names) | a short list (GitHub, npm, MCP, Mermaid, GFM) | Catches "github" → "GitHub" drift. Deliberately excludes "Markdown" — this playbook's own files consistently and correctly use lowercase "markdown" as the common noun for the format, capitalizing only the specific historical Markdown language; adding it to the list would flag dozens of already-correct sentences |
 | MD060 (table pipe padding) | **off** | Directly conflicts with [syntax.md](syntax.md)'s own stated position: "pipe alignment doesn't need to be visually perfect in source... don't spend effort padding pipes if content changes often" |
+<!-- markdownlint-enable MD044 -->
 
 The MD044/MD060 overrides above weren't decided from reading rule
 descriptions — they came from actually running the config against this
 playbook's own 12 files and finding it flagged things [syntax.md](syntax.md) already
 explicitly permits. Do the same before trusting a config change: run it
 against real files, don't just reason about what a rule *should* do.
+
+## `--fix` is not safe to run unsupervised on MD044
+
+Learned by running it, not by reading the docs: `markdownlint-cli2 --fix`
+silently rewrote `[github-flavor.md](github-flavor.md)` to
+`[GitHub-flavor.md](github-flavor.md)` in ten places across six files —
+<!-- markdownlint-disable-next-line MD044 -->
+MD044 matched "github" inside a **filename** in link text and
+"corrected" it, leaving link text that no longer matches the file it
+points to. The link still resolves (the target in parentheses is
+untouched), so nothing breaks loudly; it just quietly starts lying.
+
+The rule to carry: `--fix` is safe and genuinely useful for the
+whitespace/structure rules (MD022, MD032, MD007, MD012, MD058 — it
+cleared 350 real violations here in one pass), and unsafe for the
+content rules that require judgment (MD044 especially). Run
+`--fix`, then **diff before committing** — specifically grep the diff
+for proper-name changes inside link text and filenames.
 
 ## A known false-positive, and how to suppress it correctly
 

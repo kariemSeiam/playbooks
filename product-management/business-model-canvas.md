@@ -40,6 +40,7 @@ The nine blocks read left-to-right/top-to-bottom as a causal chain: Value Propos
 ## Example
 
 **Uber, worked through all 9 blocks:**
+
 - **Key Partners:** Drivers (independent contractors), payment processors (financial institution partnerships)
 - **Key Activities:** Development, matching algorithm, quality control, marketing
 - **Key Resources:** Technology platform (the mobile app and backend systems)

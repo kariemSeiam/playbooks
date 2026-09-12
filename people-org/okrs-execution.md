@@ -67,11 +67,13 @@ KPIs are health metrics — they tell you the business-as-usual engine is still 
 ## Example
 
 **Company Objective (annual, aspirational):** "Become the most trusted logistics partner for SME merchants in Egypt."
+
 - KR1: Net Promoter Score among SME merchants from 32 → 55.
 - KR2: On-time delivery rate from 88% → 96%.
 - KR3: Merchant churn (quarterly) from 9% → 4%.
 
 **Operations team OKR (Q3, laddering to KR2 above):**
+
 - Objective: "Make late deliveries the exception, not the norm."
 - KR1: Reduce average last-mile delay from 4.1 hrs to 1.5 hrs.
 - KR2: Cut route-planning errors flagged by drivers from 120/week to 30/week.

@@ -10,6 +10,7 @@ tags: [experimentation, feature-flags, data-driven, validation]
 Experimentation is the practice of using controlled rollouts — feature flags, A/B tests, and staged releases — as the actual decision mechanism for whether a change ships, instead of shipping based on opinion or the highest-paid-person's-opinion (HiPPO). An A/B test (an online controlled experiment) randomly assigns users to a control (existing experience) or treatment (new experience) group and measures whether a chosen metric differs by more than chance would predict. A consultant needs the mechanics, not just the concept — most of the value (and most of the failure modes) live in the statistical details of how a test is designed, run, and read, which is exactly what Kohavi's book, drawn from running experiments at scale at Microsoft, Airbnb, and elsewhere, documents in depth.
 
 ## When to use
+
 - A change is expected to affect a measurable metric and the cost of being wrong (in either direction) justifies the setup overhead of a properly randomized test, rather than a full unguarded rollout.
 - Rolling out a risky change safely — feature flags let code ship to production dark, then ramp exposure gradually, catching regressions on a small population before they hit everyone.
 - Resolving genuine stakeholder disagreement about which of two designs or flows performs better, when a decision would otherwise be settled by opinion or seniority.
@@ -19,7 +20,9 @@ Experimentation is the practice of using controlled rollouts — feature flags, 
 ## How it works
 
 ### Feature flags — the delivery mechanism underneath most experimentation
+
 A feature flag decouples *deploy* (code is in production) from *release* (code is exposed to users) — code can be merged and deployed dark, then exposed gradually or to specific segments with no new deployment.
+
 - **Release flags** — temporary, removed once fully rolled out; used for progressive delivery/canarying.
 - **Experiment flags** — drive an A/B test's variant assignment; typically removed once the test concludes and a winner ships.
 - **Ops flags** — kill-switches for operational control (e.g., disabling a feature under load).
@@ -28,6 +31,7 @@ A feature flag decouples *deploy* (code is in production) from *release* (code i
 **Progressive rollout / canary pattern:** ramp a change through increasing exposure tiers (internal dogfood → 1% → 5% → 25% → 100%), watching guardrail metrics (error rate, latency, crash rate) at each tier before increasing exposure — this catches severe regressions cheaply, on a small blast radius, well before an A/B test's statistical result would even be ready.
 
 ### A/B test mechanics — the statistical core
+
 1. **Hypothesis** — state it in falsifiable form before running anything: "Changing X will increase/decrease [metric] by [some effect], because [reasoning]." A test without a pre-stated hypothesis invites post-hoc metric-shopping.
 2. **Randomization unit** — decide what gets randomly assigned (usually the user, sometimes session or device); it must stay consistent for the test's duration and be independent between units — a real risk in social/network products, where one user's assignment can influence another's experience.
 3. **Primary metric** — one pre-declared metric the test lives or dies by; guardrail metrics are also declared upfront to catch unintended harm (e.g., an engagement-boosting change that tanks retention or spikes support tickets).
@@ -37,6 +41,7 @@ A feature flag decouples *deploy* (code is in production) from *release* (code i
 7. **Novelty and primacy effects** — a new design can win purely because it's new (novelty effect, fades over days/weeks) or lose purely because existing users resist change (primacy/change-aversion effect, also fades). Run tests long enough, and where possible check whether the effect persists for both new and returning users, to separate a genuine lift from a temporary reaction to change.
 
 ### Pitfalls Kohavi's research specifically documents
+
 - **Sample Ratio Mismatch (SRM)** — if you assigned 50/50 but observe, say, 48/52 in the actual data, something is broken in randomization or logging, and the test's results aren't trustworthy until the mismatch is root-caused. Check this before reading any metric result.
 - **Peeking** — repeatedly checking a test's results before it reaches its planned sample size or duration and stopping early on a favorable-looking result inflates the false-positive rate substantially. Use a pre-registered stopping rule or a sequential-testing method designed for early stopping, not ad hoc peeking.
 - **Twyman's Law** — any result that looks unusually large or good is more likely due to a measurement or instrumentation error than a genuine effect. Large, surprising wins deserve extra scrutiny before being trusted, not extra celebration.

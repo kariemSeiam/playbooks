@@ -10,6 +10,7 @@ tags: [prioritization, feature-classification, customer-satisfaction, quality]
 The Kano Model classifies features by the *shape* of the relationship between how much functionality is present and how satisfied the customer is — not just "important vs. unimportant." Dr. Noriaki Kano, a Japanese quality-management professor, developed it in 1984 for manufacturing quality and it was later adapted widely into product management for feature prioritization. A consultant needs it because a flat priority list can't distinguish a feature that merely prevents anger (fix it or customers leave) from a feature that actively creates delight (build it and customers become advocates) — treating both the same way misallocates a scarce roadmap.
 
 ## When to use
+
 - Deciding where to invest scarce roadmap capacity between "must fix" table stakes and genuinely differentiating delighters, when the team's default is to treat every requested feature as equally worth pursuing.
 - Auditing a mature product for features that have quietly become table stakes — yesterday's delighter is often today's basic expectation, and the model explicitly predicts this decay.
 - Resolving stakeholder disagreement where one person calls a feature "critical" and another calls it "nice to have" — Kano gives both a shared vocabulary and a survey-based way to settle it with data.
@@ -18,6 +19,7 @@ The Kano Model classifies features by the *shape* of the relationship between ho
 ## How it works
 
 ### Five categories, defined by curve shape
+
 1. **Basic / Must-be (Threshold)** — expected, taken for granted. Presence causes no delight (it's just expected); absence causes strong dissatisfaction. The curve only costs you, never gains you goodwill. Example: a banking app that doesn't crash.
 2. **Performance / One-dimensional** — satisfaction scales roughly linearly with how much is delivered; more is better, less is worse, in direct proportion. Most spec-sheet competition happens here. Example: page-load speed, battery life, storage capacity.
 3. **Excitement / Attractive (Delighters)** — unexpected; absence causes no dissatisfaction (customers didn't know to expect it), but presence creates disproportionate delight. Example: a surprise free upgrade, or a feature nobody asked for that solves a problem they didn't know was solvable.
@@ -25,10 +27,13 @@ The Kano Model classifies features by the *shape* of the relationship between ho
 5. **Reverse** — some customers are actively dissatisfied by *more* of the feature (power users want fewer confirmation dialogs; a segment prefers manual control over automation). A reminder that "more of X is better" can be segment-dependent, not universal.
 
 ### The decay prediction
+
 Kano's own key prediction: delighters migrate downward over the product's life. An Attractive feature, once customers experience and come to expect it, becomes a Performance feature, and eventually a Basic expectation as the whole market adopts it (GPS navigation in a taxi app was a delighter around 2010; it's a basic expectation today). This means the model must be re-run periodically — a Kano classification is time-stamped, not permanent.
 
 ### The Kano Survey — how to classify a feature
+
 For each candidate feature, ask customers a paired question, each answered on the same 5-point scale:
+
 - **Functional form:** "How would you feel if the product HAD [feature]?"
 - **Dysfunctional form:** "How would you feel if the product did NOT have [feature]?"
 
@@ -49,7 +54,9 @@ Each functional/dysfunctional answer pair is run through Kano's standard evaluat
 Tally results across the sample; the modal category becomes the feature's classification — but check the full distribution, not just the mode. A feature split roughly evenly between two categories across segments is itself a segmentation finding: different customer types want different things from the same feature.
 
 ### Better/Worse coefficients
+
 Rather than forcing a single discrete bucket on a borderline feature, compute:
+
 - **Satisfaction (Better) coefficient** = (A + O) / (A + O + M + I) — how much adding the feature increases satisfaction.
 - **Dissatisfaction (Worse) coefficient** = −(O + M) / (A + O + M + I) — how much removing it decreases satisfaction (expressed negative, since it's a cost).
 

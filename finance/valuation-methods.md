@@ -52,7 +52,7 @@ For each factor, score the target company relative to "average" (100%) — stron
 
 Built for pre-revenue-to-early-revenue companies where an investor is thinking backward from a target exit:
 
-```
+```text
 Terminal (exit) value = Projected exit-year revenue × industry exit multiple
                           (or exit-year net income × exit P/E)
 Post-money valuation   = Terminal value / Required ROI
@@ -64,7 +64,7 @@ Required ROI for early-stage risk typically runs **10x–30x over a 5–8 year h
 
 **The step most people skip — future dilution adjustment.** The ownership % above is what the investor needs to hold *at exit*. But future rounds will dilute everyone, including this investor. If the company is expected to raise, say, two more rounds each diluting existing holders by ~20%:
 
-```
+```text
 Required ownership TODAY = Required ownership at exit / [(1 − d₁) × (1 − d₂) × ...]
 ```
 
@@ -72,7 +72,7 @@ Skipping this step is the single most common way a VC-method valuation understat
 
 ### DCF (Series B+ / established revenue)
 
-```
+```text
 EV = Σ [FCFₜ / (1+r)ᵗ]  for t = 1..n   +   TV / (1+r)ⁿ
 TV (Gordon growth) = FCFₙ × (1+g) / (r − g)
 ```
@@ -83,7 +83,7 @@ Use a venture-adjusted discount rate (often 25–40%+, not a public-market WACC)
 
 The mechanic is a simple multiple applied to the target's own metric:
 
-```
+```text
 Implied valuation = Comparable multiple × Target's metric
 ```
 
@@ -96,13 +96,13 @@ The entire method lives or dies on how truly comparable the reference set is —
 
 **Berkus, worked.** A pre-revenue startup: sound idea scores $400,000 of $500,000 (strong but unproven thesis); working prototype scores $350,000; founding team with two prior exits scores the full $500,000; signed LOIs with two strategic distribution partners score $300,000; no revenue yet scores $0 of $500,000.
 
-```
+```text
 Pre-money = 400,000 + 350,000 + 500,000 + 300,000 + 0 = $1,550,000
 ```
 
 **VC Method, worked (with the future-dilution step most models skip).** An investor puts in $2,000,000. They project the company exits in 6 years at $80M revenue, with an industry-standard 4x revenue exit multiple, and they require a 15x return over that hold.
 
-```
+```text
 Terminal value = 80,000,000 × 4 = $320,000,000
 Post-money (naive) = 320,000,000 / 15 = $21,333,333
 Pre-money (naive)  = 21,333,333 − 2,000,000 = $19,333,333
@@ -111,7 +111,7 @@ Ownership at exit (naive) = 2,000,000 / 21,333,333 = 9.4%
 
 Now adjust for two expected future rounds, each diluting existing holders ~20%:
 
-```
+```text
 Required ownership TODAY = 9.4% / (0.8 × 0.8) = 9.4% / 0.64 = 14.7%
 Implied post-money for $2M at 14.7% ownership = 2,000,000 / 0.147 = $13,600,000
 Implied pre-money = 13,600,000 − 2,000,000 = $11,600,000
@@ -121,7 +121,7 @@ The dilution-adjusted pre-money ($11.6M) is materially lower than the naive numb
 
 **DCF, worked (illustrative Series B).** Projected free cash flow: $2M, $3M, $5M, $7M, $10M over years 1–5, terminal growth 3%, discount rate 30%.
 
-```
+```text
 TV at year 5 = 10 × 1.03 / (0.30 − 0.03) = 10.3 / 0.27 = $38.15M
 Discounted TV = 38.15 / (1.30)^5 = 38.15 / 3.71 = $10.28M
 Discounted FCFs: 1.54 + 1.78 + 2.28 + 2.45 + 2.70 = $10.75M

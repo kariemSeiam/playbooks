@@ -10,6 +10,7 @@ tags: [customer-experience, touchpoints, mapping, cx, journey]
 A visual, cross-channel representation of every touchpoint, emotion, and pain point a customer experiences moving from first awareness of a need through purchase, use, and advocacy — built to make an invisible, fragmented, multi-device experience visible enough for a team to actually redesign it. It matters to a consultant because organizations are structured in internal silos (marketing, sales, support, product) while the customer experiences the brand as one continuous thread — the map is the artifact that forces a cross-functional, customer's-eye view instead of a channel-by-channel one.
 
 ## When to use
+
 - A client performs well in individual channels or departments but customers still complain, churn, or convert poorly — the map usually surfaces a handoff problem between departments, not a single-channel problem
 - Before a CX redesign, re-platforming, or omnichannel initiative, to establish an evidence-based baseline before proposing the future state
 - Sales and marketing disagree about where prospects are actually getting stuck
@@ -21,6 +22,7 @@ A visual, cross-channel representation of every touchpoint, emotion, and pain po
 **The classic linear stages**, still used as most maps' columns: Awareness → Consideration → Purchase → Retention/Use → Advocacy. For each stage the map documents, per touchpoint: the channel (owned, earned, paid, or shared — see [content-marketing-peso.md](../marketing/content-marketing-peso.md)), the customer's goal at that moment, their emotional state, friction points, and the internal team or system responsible for that touchpoint.
 
 **Google's "Messy Middle" model — the modern correction to the linear funnel.** Google and Ipsos's 2020 behavioral-science study (eye-tracking, diary studies, large-scale behavioral experiments) found that between the *trigger* (a need arises) and the purchase moment, customers don't move step-by-step down a funnel — they cycle repeatedly, in no fixed order, across many sessions and devices, through two mental modes:
+
 - **Exploring** — expansive information-gathering: browsing options, reading reviews, comparing, discovering alternatives not originally considered (this is where a category's consideration set actually expands, not narrows).
 - **Evaluating** — narrowing down: comparing a shortlist against specific criteria, reducing options toward a decision.
 
@@ -38,6 +40,7 @@ Customers bounce between Exploring and Evaluating an unpredictable number of tim
 | Power of free | "Free" (shipping, trial, gift) is disproportionately persuasive relative to its actual monetary value |
 
 **Building the map — practical structure:**
+
 1. Define the customer segment or persona the map represents — one map per meaningfully different journey; a map trying to represent every customer type at once collapses into generic uselessness.
 2. Inventory every real touchpoint from actual data (analytics, CRM, support tickets, sales call notes, social listening), not assumed touchpoints from an internal workshop alone.
 3. For each touchpoint, capture channel, customer goal, emotion, friction point, and the internal owner.
@@ -53,12 +56,14 @@ A mid-market B2B SaaS client's journey map for its target persona (an operations
 Build the map from real data before drawing a single box — pull actual analytics paths, CRM stage timestamps, support ticket themes, and call transcripts, since the workshop's job is to interpret the data, not invent the journey from memory. Run the mapping session cross-functionally (marketing, sales, support, product all in the room) specifically because journeys break at handoffs no single department can see on its own. Once the map is built, use the emotional curve to prioritize the one or two sharpest dips rather than trying to fix everything at once — a map with twenty flagged issues and no prioritization stalls the project. For any client selling into a longer consideration cycle, build the Messy Middle's explore/evaluate cycling explicitly into the content plan — typically more comparison and review-friendly content feeding the Exploring mode, rather than assuming one polished "consideration" page will do the job.
 
 ## Watch-outs
+
 - A journey map built entirely from an internal workshop, with no real customer data, reliably reproduces the org chart's assumptions about the customer rather than the customer's actual experience.
 - One map per customer segment, not one map for "the customer" — a map generalized across meaningfully different personas or buying-committee roles collapses into vague, unactionable boxes.
 - Mapping friction without assigning an internal owner per touchpoint produces a diagram nobody is accountable for fixing.
 - The Messy Middle findings are a real behavioral pattern, not a license to abandon a structured content plan — the point is the content plan needs to serve both Exploring and Evaluating modes at every stage, not that sequencing doesn't matter at all.
 
 ## Related
+
 - [lifecycle-marketing.md](../marketing/lifecycle-marketing.md) — the journey map's stages are the backbone lifecycle marketing automates messaging against
 - [content-marketing-peso.md](../marketing/content-marketing-peso.md) — mapping which media type serves each journey touchpoint
 - [attribution-modeling.md](../marketing/attribution-modeling.md) — the same touchpoints the journey map visualizes are what attribution assigns conversion credit across

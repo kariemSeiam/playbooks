@@ -16,11 +16,13 @@ Choose based on how well-understood and how stable the requirements actually are
 ## How it works
 
 **Waterfall Methodology** — a sequential, linear approach; a structured, phase-based process where each phase must be completed before moving to the next.
+
 - **Phases (in strict sequence):** Requirements → Design → Development → Testing → Deployment → Maintenance
 - **Core principles:** Phased approach (project divided into distinct phases); Linear flow (progress moves forward in a single direction — once a phase is complete, the team doesn't revisit it); Detailed documentation (each phase produces extensive documentation — specifications, designs, test plans); Strict quality control (QA activities happen at the end of each phase to catch bugs before moving forward).
 - **Drawbacks:** Limited flexibility (adapting to changing requirements in later stages is difficult and costly — it may require revisiting completed phases); Less user involvement (feedback is typically limited to the initial requirements-gathering phase, risking a final product that doesn't fully meet user needs); Integration challenges (components built in separate phases can be hard to integrate, surfacing issues late); Not ideal for complex projects (cumbersome for projects with constantly evolving requirements).
 
 **Agile Methodology** — a set of flexible, iterative approaches prioritizing continuous feedback, collaboration, and adaptation; explicitly positioned in contrast to Waterfall's rigid linearity.
+
 - **Cycle:** Plan → Design → Develop → Test → Release → Feedback (looping back into Plan)
 - **Key values** (the deck's framing, echoing the Agile Manifesto's structure):
   - Individuals and interactions **over** processes and tools — values the human element and teamwork over rigid process/tool overreliance

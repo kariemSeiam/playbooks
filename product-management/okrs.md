@@ -10,6 +10,7 @@ tags: [goal-setting, alignment, execution, strategy]
 OKRs pair a qualitative, inspiring Objective (the "what") with 2–5 quantitative, verifiable Key Results (the "how we'll know we got there"). Andy Grove invented the framework at Intel as "iMBOs" (Intel Management by Objectives); John Doerr, who had worked under Grove at Intel as a young salesman, brought it to Google in 1999, and later popularized it industry-wide with his 2018 book. A consultant needs it as the mechanism that turns a strategy statement into a small number of falsifiable commitments for a defined period — the alternative, in practice, is a roadmap that says "ship faster" and can't be checked against anything at quarter-end.
 
 ## When to use
+
 - Quarterly (sometimes annual) planning cycles, when leadership needs to translate strategy into a small number of measurable near-term bets.
 - Cross-functional alignment — giving multiple teams traceable line-of-sight from a company objective down to team-level key results without micromanaging *how* each team gets there.
 - Replacing a vague roadmap ("ship faster," "improve quality") with a falsifiable commitment ("reduce median time-to-first-value from 14 days to 5 days").
@@ -19,26 +20,33 @@ OKRs pair a qualitative, inspiring Objective (the "what") with 2–5 quantitativ
 ## How it works
 
 ### Anatomy
+
 - **Objective** — qualitative, ambitious, time-bound, and memorable. ("Delight our power users," not "Improve engagement.")
 - **Key Results** — 2–5 per objective, quantitative, specific, and independently verifiable at period-end. ("Increase weekly-active-to-paid conversion from 8% to 12%," not "Improve conversion.")
 
 Grove's own test for whether an Objective/KR pair is well-formed: the Objective answers "Where do I want to go?"; the Key Results answer "How will I pace myself to see if I'm getting there?"
 
 ### Committed vs. aspirational (stretch) OKRs
+
 Google's own distinction, worth carrying into any client engagement:
+
 - **Committed OKRs** — agreed to be achieved at 100%, and resourced accordingly. Missing one is treated as a planning failure, not just bad luck.
 - **Aspirational/stretch OKRs** — deliberately set so the team is expected to land around 0.6–0.7 on average. Scoring 1.0 on a stretch OKR usually means it wasn't ambitious enough; scoring near 0 means either poor execution or a badly-designed Key Result.
 
 ### Scoring
+
 Each Key Result is scored 0.0–1.0 (or 0–100%) at period-end based on actual measurement; the Objective's score is the average of its Key Results. Common color-coding: 0.7–1.0 green (on track/hit), 0.4–0.7 yellow (progress but at risk), 0–0.4 red (off track).
 
 ### Cascade — hybrid, not pure waterfall
+
 Company OKRs → team/department OKRs → (optionally) individual OKRs — but this should not be a rigid top-down waterfall. Doerr, and later practitioners such as Christina Wodtke ("Radical Focus"), emphasize that roughly half of a team's OKRs should be proposed bottom-up by the team itself, not purely cascaded down, to preserve genuine ownership rather than compliance.
 
 ### Cadence
+
 Quarterly is the minimum review rhythm; a weekly check-in (Wodtke's "Monday commit / Friday wins" pattern) is what actually keeps OKRs steering decisions in-quarter rather than becoming a document reviewed only at the end. OKRs set once at the start of a quarter and never revisited until scoring time is the single most common failure mode in practice.
 
 ### OKRs vs. KPIs vs. tasks
+
 | | OKRs | KPIs | Tasks / to-dos |
 |---|---|---|---|
 | Purpose | An ambitious *push* into new territory, for a defined period | Ongoing health metrics that must stay within bounds | The actual work items that, if done, should move a Key Result |
@@ -51,6 +59,7 @@ Quarterly is the minimum review rhythm; a weekly check-in (Wodtke's "Monday comm
 Doerr's own book cites Larry Page's 1999 seed OKR for Google's Search team, built around specific search-quality and latency benchmarks — an early, concrete instance of the framework at the company where it became best known.
 
 A more granular, numeric SaaS example built for a client engagement: **Objective — "Make onboarding effortless for new teams."**
+
 - KR1: Reduce time-to-first-value from 9 days to 3 days.
 - KR2: Increase week-1 activation rate from 35% to 55%.
 - KR3: Reduce onboarding-related support tickets per 100 signups from 18 to 8.

@@ -16,14 +16,17 @@ Write or revisit a vision statement at company/product founding, after a pivot, 
 ## How it works
 
 **What a vision is:**
+
 1. The big picture of what you want to achieve
 2. A destination for the organization — not a to-do list, not a roadmap
 
 **Why it matters:**
+
 1. Inspires and motivates the team and stakeholders
 2. Anchors long-term goal-setting so short-term decisions don't drift
 
 **How to write an effective vision statement:**
+
 1. Be clear — avoid complex wording
 2. Make it simple enough that everyone in the org understands it
 3. Use language that inspires and motivates people
@@ -35,6 +38,7 @@ A vision statement is deliberately short (one sentence, typically) and deliberat
 ## Example
 
 Two vision statements from the deck, both short and aspirational rather than descriptive of current features:
+
 - **Uber:** "We reimagine the way the world moves for the better."
 - **Disney+:** "To be one of the world's leading producers and providers of entertainment."
 

@@ -10,6 +10,7 @@ tags: [product-org, empowerment, product-trio, outcomes]
 The Product Operating Model is Marty Cagan and SVPG's name for organizing small, durable, cross-functional teams — product manager, designer, and engineer, "the trio" — around a problem to solve, with the autonomy to figure out the best solution, rather than around a prioritized list of features handed down to build. Cagan contrasts this explicitly with the "feature team" model, where product management exists mainly to gather requirements and write specs, and prioritization (even solution design) is effectively owned by stakeholders or executives rather than the trio itself. A consultant needs this distinction because a company can have a full product org — PMs, designers, engineers, a roadmap — and still be running feature teams in substance, which is usually the actual reason "we have product people but we're not innovating."
 
 ## When to use
+
 - Diagnosing why a company with a complete product org still isn't innovating — most often because teams are structured as feature factories (measured by output/velocity) rather than empowered teams (measured by outcomes).
 - Designing or restructuring a product organization, or shifting a company from project-based/waterfall delivery toward genuine product operation.
 - Explaining to executives why "just tell the team what to build" undermines the exact expertise (customer insight, technical feasibility judgment) they're paying a product team to have.
@@ -18,6 +19,7 @@ The Product Operating Model is Marty Cagan and SVPG's name for organizing small,
 ## How it works
 
 ### Feature team vs. empowered team — the central distinction
+
 | | Feature Team | Empowered (Product) Team |
 |---|---|---|
 | Given | A roadmap of features/projects to build, on a schedule | A problem to solve / outcome to own |
@@ -27,20 +29,24 @@ The Product Operating Model is Marty Cagan and SVPG's name for organizing small,
 | Engineer's role in discovery | Absent — hears the spec after decisions are made | Present during discovery — helps assess feasibility and often co-generates solutions |
 
 ### The Product Trio — three roles, jointly responsible for discovery
+
 - **Product Manager** — responsible for value (is this worth building for the business) and viability (does it work within legal, financial, and business constraints).
 - **Product Designer** — responsible for usability (can real users actually figure out and enjoy using this).
 - **Engineering Lead** — responsible for feasibility (can we actually build this with the time, skills, and technology we have) — critically, present *during* discovery, not handed a finished spec afterward, because feasibility constraints often reshape which solution is even worth prototyping.
 
 ### The four risks every empowered team is responsible for de-risking
+
 Cagan frames product discovery as risk-reduction across four dimensions, all owned jointly by the trio: **Value risk** (will customers buy/use this), **Usability risk** (can users figure out how to use it), **Feasibility risk** (can engineers build it with available time/skills/tech), **Business Viability risk** (does it work for sales, marketing, finance, legal, compliance, and partnerships).
 
 ### What empowerment actually requires, structurally
+
 1. Teams are organized around a durable *problem space* (e.g., "checkout," "onboarding"), not a temporary project — expertise and context compound over time instead of resetting with every new initiative.
 2. Teams are given problems or outcomes (a Key Result to move — see [okrs.md](okrs.md)), not a feature list, with the trio owning how to hit it.
 3. Product strategy sets the *context* — which outcomes matter, in what order, and why — letting teams make good local decisions without every choice needing escalation. Cagan calls this giving teams "the why," not just "the what."
 4. Genuine two-way accountability: teams get freedom to choose their solution but remain accountable for whether the outcome actually moved — empowerment isn't license to work on whatever seems interesting.
 
 ### Leadership's changed role
+
 The manager's job shifts from assigning tasks to coaching the trio — especially the PM — on judgment: how to run discovery well, how to read data, how to make the value/viability call. Cagan is explicit that most organizations under-invest in this coaching function, promoting people into PM roles without ever teaching them how to actually do discovery.
 
 ## Example

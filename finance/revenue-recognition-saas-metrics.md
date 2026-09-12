@@ -30,13 +30,13 @@ The core principle: revenue is recognized as value is delivered to the customer,
 
 ### SaaS recurring-revenue metrics
 
-```
+```text
 MRR = Monthly Recurring Revenue — all active subscriptions normalized to a monthly value
 ARR = MRR × 12
 Net New MRR = New MRR + Expansion MRR − Contraction MRR − Churned MRR
 ```
 
-```
+```text
 NRR (Net Revenue Retention) = (Starting MRR + Expansion − Contraction − Churn) / Starting MRR
 GRR (Gross Revenue Retention) = (Starting ARR − Churn − Contraction) / Starting ARR
 ```
@@ -68,7 +68,7 @@ Cash received January 1 is $14,000, but January's recognized revenue is $2,000 (
 
 **NRR/GRR, worked.** A cohort of existing customers starts a trailing-12-month period at $100,000 MRR. Over the period: $8,000 lost to churn, $4,000 lost to contraction (downgrades), $25,000 gained from expansion (upsells within the same customers).
 
-```
+```text
 NRR = (100,000 − 8,000 − 4,000 + 25,000) / 100,000 = 113,000 / 100,000 = 113%
 GRR = (100,000 − 8,000 − 4,000) / 100,000 = 88,000 / 100,000 = 88%
 ```

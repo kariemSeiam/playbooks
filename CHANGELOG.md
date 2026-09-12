@@ -7,6 +7,34 @@ is warranted (see `github/platform.md`).
 
 ## [Unreleased]
 
+### Added
+
+- CI: `.github/workflows/lint-docs.yml` runs `markdownlint-cli2` on every
+  push and PR, wired exactly as `language/markdown/tooling.md` already
+  prescribed but had never actually been applied to this repo.
+- `.markdownlint.json` at the repo root, per that same note's own
+  instructions.
+
+### Changed
+
+- `MD029` config relaxed from `one` to `one_or_ordered`. The config was
+  stricter than the `syntax.md` rule it claimed to encode — `syntax.md`
+  permits sequential numbering "for a short, stable list" — and was
+  flagging 288 correct lines. The config was wrong, not the content.
+
+### Fixed
+
+- 410 real lint violations across the vault: blank lines around lists,
+  headings and tables, list indentation, 40 unlabelled code fences in
+  `finance/`, and emphasis used where a real heading belonged.
+- A line in `github/platform.md` where `` `Refs #N` `` had been wrapped
+  across a line break, leaving `#N` at line start and parsing as a
+  stray H1.
+- `language/markdown/tooling.md` gained a section on `--fix` being unsafe
+  for MD044 — it silently rewrote ten filename link texts to
+  `[GitHub-flavor.md](github-flavor.md)`, which resolves but no longer
+  matches the file it names. Found by running it, not by reading docs.
+
 ## [0.2.0] - 2026-09-12
 
 ### Added

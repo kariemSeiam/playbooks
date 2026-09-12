@@ -1,5 +1,6 @@
 # Obsidian flavor — the vault-specific layer
 
+<!-- markdownlint-disable-next-line MD044 -->
 Parallel to [github-flavor.md](github-flavor.md), for the same reason: this vault is itself
 an active Obsidian vault (`.obsidian/` at its root), and Obsidian's
 markdown dialect diverges from both portable CommonMark and GitHub's GFM
@@ -43,6 +44,7 @@ future reader anything about what it points to.
 ## Callouts — a superset of GitHub's alerts, not a match
 
 Obsidian's callout syntax (`> [!type]`) predates and is richer than
+<!-- markdownlint-disable-next-line MD044 -->
 GitHub's five alert types ([github-flavor.md](github-flavor.md)): 13 built-in types —
 `note`, `abstract` (alias `summary`/`tldr`), `info`, `todo`, `tip` (alias
 `hint`/`important`), `success` (alias `check`/`done`), `question` (alias

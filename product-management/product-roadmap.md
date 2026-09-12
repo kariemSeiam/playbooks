@@ -28,6 +28,7 @@ Build or update a roadmap whenever the vision and prioritized feature list need 
 **Tools to build a roadmap with:** Trello, Jira, Notion, Airtable, Aha! Roadmaps, ClickUp.
 
 **Review cadence — the key operational rule:**
+
 - **Early stage** (new products, early development): review **more frequently**, weekly or bi-weekly. This allows greater flexibility and adaptation as you gather user feedback and learn more about market needs.
 - **Mature stage** (established products with a well-defined user base and market position): reviews can happen **less frequently**, monthly or quarterly. Even mature products should still be reviewed regularly to stay aligned with evolving market trends and user needs — "less frequent" doesn't mean "stop reviewing."
 

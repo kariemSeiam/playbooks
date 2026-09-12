@@ -20,6 +20,7 @@ The income statement (profit & loss statement) reports whether a business made o
 **Income statement (P&L) — what it is:** a financial statement reporting a company's financial performance over a specific accounting period (usually a fiscal quarter or longer). It summarizes revenues, costs, and expenses incurred over that period, showing whether the company can generate profit and pointing at the two levers to fix if it can't: increase revenue, or reduce cost (or both).
 
 **Income statement objectives:**
+
 - Determine the facility's performance and help investors evaluate it.
 - Determine profitability and explain the revenues/expenses behind it.
 - Give managers the basis for future decisions, planning, and strategy.
@@ -45,6 +46,7 @@ The income statement (profit & loss statement) reports whether a business made o
 **Balance sheet:** reports assets, liabilities, and shareholders' equity as of a specific date — a snapshot, not a flow. It's built from the same identity used in a budget template (see [budgeting.md](budgeting.md)): Assets = Liabilities + Equity.
 
 **The actual differences, precisely:**
+
 - **Period vs. point in time** — the income statement covers a *span* (a quarter, a year); the balance sheet is a *snapshot* taken on one date. This is the fundamental distinction: everything else follows from it.
 - **What each tells you** — the income statement shows how healthy and profitable the business *was over that stretch*; the balance sheet shows what the business owns and owes, plus long-term investments, *right now*.
 - **The bottom-line number** — the income statement's headline number is net income (a flow); the balance sheet's is the company's actual net worth at that moment (a stock).
@@ -53,7 +55,7 @@ The income statement (profit & loss statement) reports whether a business made o
 
 **One-step income statement** (Establishment A, 2019): sales revenue 100,000 EGP, investment income 75,000 EGP. Expenses: operating 40,000, marketing 15,000, admin & general 10,000, other 5,000.
 
-```
+```text
 Total revenue  = 100,000 + 75,000 = 175,000 EGP
 Total expenses = 40,000 + 15,000 + 10,000 + 5,000 = 70,000 EGP
 Net income     = 175,000 − 70,000 = 105,000 EGP
@@ -63,14 +65,14 @@ Notice this tells you the business made 105,000 EGP net — but not how much of 
 
 **Multi-step income statement** (Establishment B, 2020): sales revenue 100,000 EGP, cost of goods sold 20,000 EGP, total operating expenses 20,000 EGP.
 
-```
+```text
 Gross profit     = 100,000 − 20,000 = 80,000 EGP
 Operating profit = 80,000 − 20,000 = 60,000 EGP        ← core-business performance, isolated
 ```
 
 Then the non-operating items for the period: loss on sale of a building (5,000), an equipment-related expense (4,000), a gain on sale of land in May 2020 (20,000), interest expense on a bank loan (10,000), tax expense (7,000):
 
-```
+```text
 Net income = 60,000 − 5,000 − 4,000 + 20,000 − 10,000 − 7,000 = 54,000 EGP
 ```
 

@@ -29,6 +29,7 @@ Work through all six even briefly — the value of PESTEL is forcing you past th
 ## Example
 
 A ride-hailing startup evaluating expansion into a new Egyptian governorate:
+
 - **Political**: local government stance on ride-hailing licensing.
 - **Economical**: local fuel prices and exchange-rate exposure on any imported vehicle parts.
 - **Social**: local attitudes toward women using ride-hailing apps alone (relevant to driver/rider mix).

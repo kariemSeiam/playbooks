@@ -25,6 +25,7 @@ Inbound procurement and logistics is the integrated management responsibility fo
 Two clusters of objectives define the purchasing/warehouse function — strategic (why it exists) and operational (how it runs day to day):
 
 **Strategic objectives:**
+
 - Ensure the continuity of the production process by guaranteeing all necessary raw materials are available, preventing delayed product flow.
 - Obtain primary products at the best possible price, provided the materials still match the required quality and product specifications — price and spec are not traded off against each other.
 - Diversify suppliers rather than relying on a single one, so the company gains real negotiating strength (through tenders and competition) for a reasonable price.
@@ -32,6 +33,7 @@ Two clusters of objectives define the purchasing/warehouse function — strategi
 - Achieve integration and cooperation between the purchasing department and every other department that depends on it.
 
 **Operational objectives:**
+
 - Draw up and continuously develop purchasing policies — the deck names three common ones: *as-needed* purchasing, *small-quantity* purchasing, and *advance purchasing for storage*. Which one fits depends on the production type (see [production-processes.md](production-processes.md)): flow production usually justifies advance/storage purchasing; job production usually doesn't.
 - Conduct market and competitive studies to forecast market conditions ahead of purchasing decisions.
 - Reconsider and review incoming purchase requests, and verify their credibility before acting on them.
@@ -47,6 +49,7 @@ Two clusters of objectives define the purchasing/warehouse function — strategi
 Procurement itself is the acquisition and purchase of goods and services for commercial use from an external source — either through direct purchase or through tenders — with the aim of ensuring timely delivery of the agreed quality and quantity.
 
 **Procurement's four objectives:**
+
 1. **Save money** — get the best prices and standards for goods and services generally, by taking advantage of supplier incentives and discounts.
 2. **Diversify offers** — secure supply by attracting more than one supplier for the same goods, rather than depending on a single source.
 3. **Meet business requirements reliably** — which includes actively avoiding suppliers with a poor reputation, not just choosing on price.
@@ -55,6 +58,7 @@ Procurement itself is the acquisition and purchase of goods and services for com
 **Purchasing's relationship to production:** effective, ongoing communication between purchasing and production management is essential. Production needs clear, current information about what materials are actually on hand, and purchasing needs to be able to source from multiple channels quickly if the organization's primary supplier develops a problem — this is the operational payoff of the "diversify suppliers" objective above.
 
 **The seven stages of the purchasing process, in order:**
+
 1. Determine the company's actual needs for goods.
 2. Search for potential suppliers.
 3. Negotiate with suppliers on price and terms, aiming for the lowest cost without any negative effect on the operational process.

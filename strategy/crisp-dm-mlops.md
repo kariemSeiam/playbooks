@@ -10,6 +10,7 @@ tags: [data-science, ml, mlops, process, deployment, modeling]
 CRISP-DM (Cross-Industry Standard Process for Data Mining) and MLOps are two complementary process frameworks a consultant needs to judge whether a client's data science or ML effort is run as a disciplined process or as ad hoc modeling. CRISP-DM, the battle-tested six-phase methodology published in 2000, still underlies most professional data science practice; MLOps is the more recent — and still maturing — discipline of applying DevOps-style automation and lifecycle rigor specifically to the parts of CRISP-DM that involve a live, deployed model that must keep working after launch. CRISP-DM answers "how do we responsibly get from a business question to a validated model"; MLOps answers "how do we keep that model reliable, monitored, and retrainable once it's actually running in production."
 
 ## When to use
+
 - A client's data science team produces models that never make it to production, or that degrade silently after launch
 - Scoping or reviewing a data science engagement, to check whether business framing and evaluation are getting real time relative to modeling
 - Diagnosing "hidden technical debt" in an existing ML system — pipeline, data-dependency, and monitoring gaps that don't show up as visible bugs but compound over time
@@ -32,7 +33,9 @@ CRISP-DM (Cross-Industry Standard Process for Data Mining) and MLOps are two com
 The process is explicitly iterative and non-linear, much like design thinking's stages — CRISP-DM's own diagram loops back from Evaluation to Business Understanding, and from Deployment back to the top, because deployment and monitoring routinely surface new business questions or reveal that "understanding" needs revisiting once the model meets reality.
 
 ### MLOps — the discipline that makes Deployment durable
+
 MLOps extends CRISP-DM's Deployment phase, and the ongoing loop back to Business/Data Understanding, into a continuously operated system — applying DevOps principles (automation, versioning, monitoring, continuous integration and delivery) specifically to the parts of the ML lifecycle unique to ML, not just software: data pipelines, model training, and model behavior in production. Core practices:
+
 - **Data and pipeline versioning** — treating training data and feature pipelines as versioned artifacts, not one-off exports, so a model's exact inputs are reproducible
 - **Automated retraining pipelines** — scheduled or trigger-based retraining as data distributions shift, rather than manual, ad hoc model refreshes
 - **Model monitoring for drift** — detecting when the live data distribution or model performance diverges from what was validated in Evaluation (data drift, concept drift) — effectively CRISP-DM's Evaluation phase running continuously rather than once
@@ -48,6 +51,7 @@ A bank builds a credit-risk model. **Business Understanding** defines success as
 Use CRISP-DM's six phases as a structured audit checklist on any existing or proposed data science engagement — ask, phase by phase, how much time and rigor was actually applied, looking specifically at the two most commonly shortchanged phases: Business Understanding (rushed because it isn't "technical work") and Deployment/monitoring (rushed because the visible modeling work feels done once Evaluation passes). For a client standing up a new ML capability, scope the engagement to include MLOps infrastructure — versioning, monitoring, retraining triggers — as a deliverable from day one, not an afterthought bolted on after a model breaks in production; this is the most common gap between a data-science proof-of-concept and an actually reliable production system. Pair this note's Deployment/monitoring rigor directly with [ai-governance-nist-eu.md](ai-governance-nist-eu.md)'s Measure/Manage functions — for a client in a regulated context, model monitoring is not just an engineering best practice, it's part of the compliance obligation.
 
 ## Watch-outs
+
 - Data Preparation reliably takes longer than clients, and sometimes data scientists, plan for — budget and timeline estimates that don't reserve the majority of project time for this phase are optimistic by default
 - "The model works" (Modeling/Evaluation) and "the model creates business value in production" (Deployment/MLOps) are different claims — a project can succeed at the former and fail entirely at the latter, and that gap is where most ML investment quietly evaporates
 - MLOps tooling and maturity varies enormously by organization — don't assume a client has any of it in place; a first ML deployment for a client with no existing MLOps practice needs that infrastructure built as part of the project, not assumed as ambient capability
@@ -55,6 +59,7 @@ Use CRISP-DM's six phases as a structured audit checklist on any existing or pro
 - Sculley et al.'s "hidden technical debt" argument means an ML system can look stable and low-risk from the outside while accumulating real fragility (entangled dependencies, correction cascades) that only surfaces as a sudden, hard-to-diagnose failure — periodic technical-debt review of production ML systems is risk management, not optional maintenance
 
 ## Related
+
 - [ai-build-vs-buy.md](../strategy/ai-build-vs-buy.md) — CRISP-DM and MLOps are the process discipline that governs execution once a capability has actually earned an "Evolve" (build) decision
 - [ai-maturity-models.md](../strategy/ai-maturity-models.md) — an organization's ability to run CRISP-DM/MLOps rigorously is itself a marker of Gartner Operational/Systemic-stage maturity, not something available at the Awareness/Active stages
 - [ai-governance-nist-eu.md](../strategy/ai-governance-nist-eu.md) — MLOps monitoring is the operational mechanism that satisfies NIST's Measure/Manage functions on an ongoing basis for any deployed model

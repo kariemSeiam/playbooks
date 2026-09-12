@@ -18,10 +18,12 @@ Use this framing whenever a client (or you) conflates marketing with "posting on
 **What marketing is.** The discipline evolved through four historical orientations (Narver & Slater, 1990): Production concept (make it cheap and available) → Quality concept (make it good) → Selling concept (push what you've made) → **Marketing orientation** (find out what's needed, then make and deliver it). Modern marketing practice operates from that last orientation.
 
 **The two elements of "how to get the job."** Whatever else marketing does, it is always doing one of two things:
+
 1. **Creating value** — for the customer, not just for the business. If there's no real value in the offer, no amount of promotion fixes that.
 2. **Customer relationship building** — value has to be exchanged and sustained over time, not just delivered once.
 
 **The 5-step marketing process.** This is the operating sequence that ties the rest of the marketing curriculum together — each step is its own body of work:
+
 1. **Understand the Marketplace** — market conditions, competitors, customers (see [understanding-the-marketplace.md](understanding-the-marketplace.md)).
 2. **Design the Strategy** — decide who you serve and how (STP — see [stp-model.md](stp-model.md)).
 3. **Apply the Strategy** — execute through the marketing mix (4Ps — see [marketing-mix-4ps.md](marketing-mix-4ps.md)).

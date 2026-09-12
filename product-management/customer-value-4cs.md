@@ -16,6 +16,7 @@ Use the 4Cs specifically as the framework for competitor analysis and value-prop
 ## How it works
 
 **Market analysis is a 7-step process**, and the 4Cs live inside step 4:
+
 1. Define the objective
 2. Conduct industry research
 3. Identify target segment

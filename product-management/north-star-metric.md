@@ -10,6 +10,7 @@ tags: [metrics, growth, alignment, product-strategy]
 A North Star Metric (NSM) is the single metric that best captures the core value a product delivers to customers — chosen so that it also leads (rather than lags) revenue, and can rally an entire company around one number instead of every team optimizing its own siloed metric. The term comes out of the growth-hacking circles Sean Ellis helped define, and was later systematized into a repeatable framework by Amplitude, whose "North Star Playbook" is the closest thing the industry has to a standard operating manual for choosing and operationalizing one. A consultant needs it because "growth is our priority" is not a plan — an NSM is the artifact that turns that intention into one number every team's roadmap and OKRs can be checked against.
 
 ## When to use
+
 - Teams are optimizing different, sometimes conflicting metrics (growth chases signups, engineering chases uptime, sales chases MRR) and leadership needs one number that ties them together.
 - A company has passed initial product-market fit and needs a durable growth metric beyond vanity counts like downloads or pageviews.
 - Diagnosing whether shipped features are actually compounding into durable value — an NSM that stays flat despite a busy release calendar is a sharper signal than "we shipped a lot this quarter."
@@ -19,6 +20,7 @@ A North Star Metric (NSM) is the single metric that best captures the core value
 ## How it works
 
 ### Criteria for a good NSM
+
 A metric earns "North Star" status only if it passes all of these:
 
 | Criterion | Test |
@@ -32,13 +34,16 @@ A metric earns "North Star" status only if it passes all of these:
 Revenue itself almost never qualifies — it's a lagging output of value delivered, not the delivery of value itself. Vanity metrics (downloads, registered accounts, pageviews) usually fail the "expresses value" test — they measure exposure to the product, not use of it.
 
 ### The metric tree: NSM + input metrics
+
 An NSM sits at the top of a tree with 3–5 **input metrics** feeding it — the specific, ownable levers that, moved together, move the NSM. Each input metric gets its own owner and its own set of initiatives/experiments. Input metrics typically split across four dimensions:
+
 - **Breadth** — how many customers engage in the value-driving behavior
 - **Depth** — how much of the behavior each customer does
 - **Frequency** — how often they do it
 - **Efficiency** — how much effort/friction it takes them to do it
 
 ### Process to derive an NSM
+
 1. Write down the product's core value proposition / "aha moment" in one sentence.
 2. List every candidate metric that plausibly reflects delivered value.
 3. Score each candidate against the criteria table above; discard anything that fails "expresses value" or "actionable."
@@ -47,6 +52,7 @@ An NSM sits at the top of a tree with 3–5 **input metrics** feeding it — the
 6. Set a target and a review cadence — weekly or biweekly for an NSM review meeting, not quarterly; the whole point is a leading indicator you can act on inside the current cycle.
 
 ### Named examples worth knowing
+
 | Company | North Star Metric |
 |---|---|
 | Slack | Number of messages sent within a team |

@@ -1,6 +1,6 @@
 # Playbooks
 
-### Standing law and standing knowledge for an agent that reads before it acts, not after
+Standing law and standing knowledge for an agent that reads before it acts, not after.
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -169,7 +169,7 @@ cross-reference in this vault is a real relative link, verified to resolve
 to a file that actually exists and is tracked — not backtick-styled text
 that only looks like it points somewhere. The content half — whether a
 note's claims are still true — doesn't have that same automatic check yet;
-<a href="extensions/mcp/authoring-a-server.md"><code>extensions/mcp/authoring-a-server.md</code></a>'s re-verifiable-claims principle is the
+<a href="extensions/MCP/authoring-a-server.md"><code>extensions/MCP/authoring-a-server.md</code></a>'s re-verifiable-claims principle is the
 standing answer for where that's worth adding next, applied first to the
 notes most exposed to drift.
 </details>

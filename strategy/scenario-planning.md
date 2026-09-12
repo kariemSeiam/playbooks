@@ -10,6 +10,7 @@ tags: [planning, uncertainty, futures, scenarios, risk]
 Scenario planning is a structured method for exploring several plausible, internally consistent futures rather than betting a strategy on a single forecast. It descends from RAND's Cold War military scenario work (Herman Kahn), was turned into a business discipline by Pierre Wack's planning team at Royal Dutch Shell in the early 1970s, and was codified into a repeatable methodology by Peter Schwartz — who worked under Wack at Shell before founding Global Business Network — in "The Art of the Long View" (1991). A consultant needs it because forecasting answers "what will happen" (and is usually wrong past a short horizon), while scenario planning answers "what could happen, and is our strategy robust across all of it" — the only honest question to ask under genuine uncertainty.
 
 ## When to use
+
 - Long planning horizons (5–20 years) in domains with high structural uncertainty — energy, geopolitics, technology disruption, regulation
 - Board or executive strategy offsites need a shared vocabulary for "what could happen" before committing capital
 - A client is over-anchored on a single base-case forecast and the plan needs pressure-testing against alternative futures
@@ -19,6 +20,7 @@ Scenario planning is a structured method for exploring several plausible, intern
 ## How it works
 
 **The 9-step process:**
+
 1. **Define the focal issue** — the specific decision or question driving the exercise, with an explicit time horizon
 2. **Identify key forces** in the local environment (customers, competitors, suppliers, regulators)
 3. **Identify driving forces** at the macro level (social, technological, economic, environmental, political — see [pestel-analysis.md](../marketing/pestel-analysis.md))
@@ -42,6 +44,7 @@ In 1971–72, Pierre Wack's planning team at Shell built scenarios that included
 Run it as a live 1–2 day workshop with the actual leadership team, not a document produced solo and presented back. Cap the output at three to four scenarios — Schwartz's own practice caps at four because more become unusable for real decision-making. Give each scenario a memorable name (Schwartz's GBN convention — "Boomtown," not "Scenario A") so it survives in institutional memory past the workshop. Anchor the exercise to an actual pending decision (the focal issue in step 1), not a generic "what's the future of our industry" — scenarios built without a specific decision attached rarely get used. Revisit and refresh the set periodically as driving forces shift; Shell itself refreshes its scenarios every few years rather than treating any set as permanent.
 
 ## Watch-outs
+
 - Scenario planning is not forecasting — if a client asks "which one will actually happen," expectations were mis-set; the deliverable is preparedness across futures, not a prediction of the winning one
 - More than four scenarios dilutes decision-usefulness; discipline to the two most critical, most uncertain axes
 - Confusing a predetermined trend (belongs as a constant across every scenario) with a critical uncertainty (belongs on an axis) is the single most common design mistake
@@ -49,6 +52,7 @@ Run it as a live 1–2 day workshop with the actual leadership team, not a docum
 - Building polished scenarios and never reconnecting them to an actual decision turns the exercise into strategic theater rather than the re-perception Wack intended
 
 ## Related
+
 - [pestel-analysis.md](../marketing/pestel-analysis.md) — standard source for identifying the macro driving forces in step 3
 - [wardley-mapping.md](../strategy/wardley-mapping.md) — complementary situational awareness: Wardley maps the present value chain's structure, scenarios explore how the future context around it might diverge
 - [swot-analysis.md](../marketing/swot-analysis.md) — feed each scenario's implications into a fresh SWOT once the scenario set is built

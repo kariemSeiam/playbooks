@@ -69,6 +69,7 @@ copies of the same rule are a guarantee they'll eventually disagree.
 ## 8. If this file targets GitHub rendering (a README, a repo doc)
 
 - Any diagram with branches, nesting, or more than ~4 boxes: Mermaid, not
+  <!-- markdownlint-disable-next-line MD044 -->
   hand-aligned ASCII ([github-flavor.md](github-flavor.md)). If ASCII was used anyway,
   verify every bordered box's line width programmatically, not by eye.
 - Any badge: does it answer a question the reader would otherwise look

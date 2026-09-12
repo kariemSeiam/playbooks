@@ -10,6 +10,7 @@ tags: [brand, equity, loyalty, awareness, associations]
 David Aaker (UC Berkeley Haas) defined brand equity as a set of assets — and liabilities — linked to a brand's name and symbol that add to, or subtract from, the value provided by a product or service. It was the first framework to treat "brand" as a genuine asset class rather than a soft marketing concept, giving executives and consultants a vocabulary to discuss brand value in financial and strategic terms (valuation, licensing, M&A) alongside the more familiar customer-perception terms.
 
 ## When to use
+
 - Valuing a brand for M&A, licensing, franchising, or an investor conversation, where a purely perception-based model doesn't map cleanly to the "what is this brand actually worth" question
 - Auditing why a well-known brand still can't command a price premium or fend off private-label or new-entrant share erosion
 - Structuring a brand-equity tracking dashboard across five distinct, individually actionable asset categories instead of one composite "brand score"
@@ -38,12 +39,14 @@ A regional bottled-water brand versus a new entrant, scored on the five assets: 
 Score the client and two or three competitors 1-5 on each of the five assets independently, because a client can be strong on Awareness and weak on Loyalty (common after heavy reach spend with no reason to stay), or strong on Perceived Quality with zero Proprietary Assets protecting it (vulnerable to a fast-follower knockoff). Reach for this framework specifically when the conversation turns financial — an investor, acquirer, or licensing partner asking "what is the brand worth" wants Aaker's asset logic (Loyalty as predictable future cash flow, Proprietary Assets as defensibility), not Keller's in-the-customer's-head pyramid, even though the two describe overlapping reality from different vantage points.
 
 ## Watch-outs
+
 - Awareness is necessary but not sufficient — a famous brand can still have low equity if Perceived Quality or Associations are negative (see also [brand-equity-keller-cbbe.md](../marketing/brand-equity-keller-cbbe.md), which flags the same trap explicitly).
 - Perceived Quality is a perception, not the lab result — don't let a client substitute an internal QA report for actual customer perception data; the two can diverge in either direction and only perception moves purchase behavior.
 - Proprietary assets (trademarks, patents) are frequently under-registered by small or regional clients — this is the one asset category that's a legal task, not a marketing one, and the cheapest insurance against a competitor eroding the other four.
 - Don't average the five into a single composite score — a client with a high average but one catastrophically weak asset (zero loyalty, say) has a real vulnerability an averaged number would hide.
 
 ## Related
+
 - [brand-equity-keller-cbbe.md](../marketing/brand-equity-keller-cbbe.md) — the complementary customer-perception (in-the-head) sequential model
 - [how-brands-grow.md](../marketing/how-brands-grow.md) — an evidence-based challenge to how much weight to put on Loyalty for a small or challenger brand
 - [building-customer-relationships.md](../marketing/building-customer-relationships.md) — the retention mechanics underlying the Brand Loyalty asset

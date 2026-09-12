@@ -16,6 +16,7 @@ Only after STP is settled (see [stp-model.md](stp-model.md)) — the 4Ps are the
 ## How it works
 
 **1st P — Product.** What is actually being offered, decided across four elements:
+
 - **Product Design** — form, function, how it's engineered/built.
 - **Product Description** — how it's explained, the claims made about it.
 - **Product Packaging** — physical or digital wrapping, first-touch impression.
@@ -23,6 +24,7 @@ Only after STP is settled (see [stp-model.md](stp-model.md)) — the 4Ps are the
 (Broader dimensions referenced in the mix overview: features, quality, branding, packaging, guarantee.)
 
 **2nd P — Place.** Where and how the product reaches the customer. Four questions to work through:
+
 1. Where will potential customers search for this product?
 2. Is physical interaction with the product necessary before purchase?
 3. Will the sales strategy focus on direct marketing through the business's own e-commerce platform, or do customers typically find the business on third-party marketplaces?
@@ -34,6 +36,7 @@ Only after STP is settled (see [stp-model.md](stp-model.md)) — the 4Ps are the
 *Objectives of pricing* — every pricing decision should be traceable to one of three goals: **Market Continuity** (staying viable/competitive over time), **Increasing Profit Margin**, **Controlling the Market** (using price as a competitive weapon, e.g. to block entrants or gain share).
 
 *Pricing strategies* (nine named options, choose based on the pricing objective and the STP position):
+
 - **Penetration Pricing** — enter low to build share/volume fast.
 - **Market Skimming** — enter high, then lower price over time to capture willingness-to-pay tiers.
 - **Premium Pricing** — sustained high price to signal quality/exclusivity.

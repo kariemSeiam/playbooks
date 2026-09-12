@@ -28,7 +28,7 @@ to prevent:
 A collection built for one doesn't install into the other. Skills and MCP
 servers travel across both harnesses because they're open, standalone
 formats (see [../skills/mechanism.md](../skills/mechanism.md) and
-[../mcp/mechanism.md](../mcp/mechanism.md)); a plugin is each harness's own
+[../MCP/mechanism.md](../mcp/mechanism.md)); a plugin is each harness's own
 answer to "how do I ship several of these together," and those answers
 aren't compatible with each other.
 

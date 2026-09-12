@@ -30,21 +30,21 @@ A financial asset is the stock of a company's bank balances, bonds, and deposits
 
 The same physical thing can be sliced along three independent axes. A client's laptop, for instance, is simultaneously a current/liquid asset, a tangible asset, and (usually) an operating asset — the axes aren't competing categories, they're three different questions asked of the same asset.
 
-**1. By how easily it converts into money**
+### 1. By how easily it converts into money
 
 | Type | Definition | Examples |
 |---|---|---|
 | **Liquid / current assets** | Convert to cash quickly and are typically consumed or turned over within a short period. | Cash on hand, short-term deposits, office supplies, furniture inventory, laptops. |
 | **Fixed assets** | Cannot be easily converted to cash or its equivalent; defined by their long-term nature. | Land, buildings, heavy machinery, patents, trademarks. |
 
-**2. By physical presence**
+### 2. By physical presence
 
 | Type | Definition | Examples |
 |---|---|---|
 | **Tangible assets** | Have a real physical presence and occupy space. | Land, buildings, cash notes, office supplies, warehouse contents, machinery, technical equipment. |
 | **Intangible assets** | No physical, material presence — their value is legal or informational, not physical. | Patents, property rights, trademarks, copyrights. |
 
-**3. By use**
+### 3. By use
 
 | Type | Definition | Examples |
 |---|---|---|

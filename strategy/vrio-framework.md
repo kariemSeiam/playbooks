@@ -26,10 +26,11 @@ VRIO evaluates a resource or capability through four questions, asked strictly i
 **2. Rarity** — Is the resource currently controlled by only a small number of competing firms? A valuable resource that many competitors also possess can only produce *competitive parity* (you're as good as everyone else), not an *advantage* — because if all competitors have it, none of them gains ground on the others by having it.
 
 **3. Imitability** — Is it costly for firms without the resource to obtain or develop it? This is the pivotal question for *sustainability* of advantage. Barney identifies several sources of costly imitation:
-   - **Unique historical conditions** — the resource was built through a particular, unrepeatable path (early-mover timing, a specific founding story, accumulated experience that can't be compressed or bought).
-   - **Causal ambiguity** — competitors cannot clearly identify *why* the resource produces the advantage, making it hard to copy even if they can see the outcome (e.g., a specific blend of culture and process that isn't reducible to a documented playbook).
-   - **Social complexity** — the resource is embedded in complex social phenomena (organizational culture, interpersonal trust between managers, reputation with suppliers) that firms can't simply engineer into existence through investment alone.
-   - **Patents/legal protection** — where applicable, though this provides time-limited rather than permanent protection.
+
+- **Unique historical conditions** — the resource was built through a particular, unrepeatable path (early-mover timing, a specific founding story, accumulated experience that can't be compressed or bought).
+- **Causal ambiguity** — competitors cannot clearly identify *why* the resource produces the advantage, making it hard to copy even if they can see the outcome (e.g., a specific blend of culture and process that isn't reducible to a documented playbook).
+- **Social complexity** — the resource is embedded in complex social phenomena (organizational culture, interpersonal trust between managers, reputation with suppliers) that firms can't simply engineer into existence through investment alone.
+- **Patents/legal protection** — where applicable, though this provides time-limited rather than permanent protection.
 
 **4. Organization** — Is the firm organized — in terms of formal reporting structures, management systems, and policies — to exploit the full competitive potential of the resource? A firm can have a valuable, rare, and hard-to-imitate resource and still fail to capture the advantage if its structure, systems, or processes aren't set up to leverage it (direct link to [mckinsey-7s.md](mckinsey-7s.md) — Organization here maps closely onto Structure and Systems there).
 

@@ -3,6 +3,7 @@
 A package's README renders in at least two places that matter: the GitHub
 repo page, and the registry page (npmjs.com, pypi.org) a user actually
 lands on from `npm install <pkg>`. These two renderers are not the same
+<!-- markdownlint-disable-next-line MD044 -->
 software, and [github-flavor.md](github-flavor.md)'s entire toolkit is, by definition,
 GitHub-exclusive — nothing in it is guaranteed to survive the trip to a
 registry page. This matters directly for any package of your own that's
@@ -27,6 +28,7 @@ they're GitHub's own post-processing:
 | `<details>`/`<summary>` | Usually survives (standard HTML5, commonly allow-listed by the sanitizer) | Verify on the actual published page rather than assume |
 | `<div align="center">`, `<picture>` | Commonly survives, but registry sanitizers vary and change over time | Same — check the live page |
 
+<!-- markdownlint-disable-next-line MD044 -->
 The practical rule: **anything from [github-flavor.md](github-flavor.md)'s alert or
 diagram sections will silently degrade to plain, sometimes-ugly text on
 a registry page.** This isn't a corner case — a README that opens with a

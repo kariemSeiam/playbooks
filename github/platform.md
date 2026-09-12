@@ -37,8 +37,8 @@ where nothing needs to survive until later.
 The concrete trigger for adopting Issues on a project that doesn't use
 them yet: the first time something genuinely needs to persist as "not
 done yet" past the current session. Once Issues exist, commit footers
-reference them (`Fixes #N` auto-closes on merge to default branch, `Refs
-#N` links without closing — see [commits.md](commits.md)).
+reference them (`Fixes #N` auto-closes on merge to default branch,
+`Refs #N` links without closing — see [commits.md](commits.md)).
 
 ## Pull Requests
 
@@ -79,6 +79,7 @@ handful of issues doesn't need a label taxonomy; dozens or hundreds might.
 
 Once any repo exists on GitHub — private or not — these cost essentially
 nothing and catch real mistakes:
+
 - **Secret scanning** — flags an accidentally committed API key/token.
   Complements, never replaces, the discipline of never committing
   `.env`/`*.key`/`*.pem`-style files in the first place (see

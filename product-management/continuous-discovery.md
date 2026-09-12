@@ -10,6 +10,7 @@ tags: [discovery, customer-research, validation, product-trio]
 Continuous discovery is the habit of the product trio (PM, design, engineering) touching real customers — through interviews, usability tests, or support-signal review — at least once every week, indefinitely, rather than treating discovery as a phase that finishes before a project starts. The Opportunity Solution Tree (OST) is the visual structure that keeps that ongoing research anchored to one desired outcome instead of sprawling into a disconnected pile of feature requests. Teresa Torres, a product discovery coach, developed and taught the technique from around 2016 onward and formalized it in her 2021 book. A consultant needs it because "we did user research before this project" is not the same claim as "we know, this week, whether what we're building is still right" — and most teams' discovery process is the former.
 
 ## When to use
+
 - Discovery currently only happens in occasional standalone research sprints, disconnected from delivery, and the backlog is filling with stakeholder-requested features never traced back to a real customer problem.
 - A team has a clear desired outcome (often an OKR Key Result — see [okrs.md](okrs.md)) but no structured way to generate and compare competing ways to achieve it.
 - Justifying why a team is testing 3 small, cheap experiments before committing engineering weeks to build one full solution.
@@ -19,18 +20,22 @@ Continuous discovery is the habit of the product trio (PM, design, engineering) 
 ## How it works
 
 ### The habit: weekly customer touchpoints
+
 Torres's baseline rule: the product trio has direct customer contact — interviews, usability tests, or support-ticket review — at least once a week, every week, indefinitely. Not a discrete phase. The goal is a continuous, small-batch stream of qualitative signal so decisions are never more than a week stale.
 
 ### The Opportunity Solution Tree — four layers, root to leaf
+
 1. **Desired Outcome** (root) — the business or product outcome the trio owns, ideally a measurable OKR-style Key Result (e.g., "Increase week-4 retention from 22% to 30%"). One tree per outcome.
 2. **Opportunities** (branches) — customer needs, pains, or desires — surfaced through interviews — that, if addressed, would move the desired outcome. Opportunities must be framed as customer problems, not solutions ("Customers don't trust automated categorization," not "Add a manual override button"). They can nest into sub-opportunities, and are plotted on an **Opportunity Map** scoring each for size (how many customers) and impact on the outcome — this is how the trio decides which branch to pursue next.
 3. **Solutions** (next level) — multiple competing ideas for addressing one chosen opportunity. Torres recommends generating at least 3–4 divergent solutions per opportunity in parallel before converging on one — converging on the team's first idea is the most common failure this layer exists to prevent.
 4. **Assumption Tests** (leaves) — the smallest testable assumption each solution depends on, surfaced via **Assumption Mapping** along two axes: Importance (how critical to the solution working) and Evidence (how much already supports it). High-importance, low-evidence assumptions get tested first and cheaply — fake-door tests, concierge tests, prototype interviews, or a small controlled experiment (see [experimentation-ab-testing.md](experimentation-ab-testing.md) for the mechanics of running the test itself).
 
 ### Interviewing technique that feeds the tree
+
 Story-based interviewing ("tell me about the last time you...") beats hypothetical questions ("would you use a feature that...") because customers are unreliable narrators of their own future behavior but decent narrators of a specific past event. Every interview is logged into a running, shared **Interview Snapshot** so opportunities accumulate evidence over time instead of evaporating once the interview ends.
 
 ### Continuous vs. one-off discovery
+
 | | One-off discovery sprint | Continuous discovery |
 |---|---|---|
 | Cadence | Before a project starts, then stops | Weekly, ongoing, indefinite |

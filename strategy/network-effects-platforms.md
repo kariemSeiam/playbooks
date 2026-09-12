@@ -10,6 +10,7 @@ tags: [network-effects, platforms, marketplace, multi-sided, scale]
 A network effect is the phenomenon where a product or service becomes more valuable to each user as more people use it — value scales with adoption, rather than being fixed per unit sold. This is the core economic engine behind platform businesses, distinct from traditional "pipeline" businesses that create value in a linear, step-by-step chain. Parker, Van Alstyne, and Choudary's *Platform Revolution* (2016) is the standard synthesis of platform strategy; the venture firm NfX has built the most widely cited practitioner taxonomy of specific network-effect types, used across tech and VC circles to diagnose real defensibility. A consultant needs this to tell the difference between a business that gets structurally harder to compete with as it scales, and one that just has more customers.
 
 ## When to use
+
 - Evaluating a marketplace, social, or platform business model's actual defensibility, versus a pipeline business relying on switching costs alone
 - A client's growth story invokes "network effects" loosely, without specifying which type or whether the model has one at all
 - Assessing multi-sided pricing strategy — who should be subsidized, who should pay, in a marketplace
@@ -44,6 +45,7 @@ NfX's own taxonomy runs to sixteen named sub-types across physical, marketplace,
 First, make the client name which specific type of network effect their business actually has — "network effects" is used as a loose synonym for "growth" far too often, and a business with only weak data effects shouldn't be valued or defended as if it had Facebook-strength direct effects. For a marketplace client, map the two-sided flywheel explicitly and identify the scarcer side (usually supply — sellers, drivers, hosts); that side should generally be subsidized and prioritized in launch or expansion, with the other side monetized. For a platform-strategy client entering a market against an entrenched network-effect incumbent, don't recommend competing on the same axis (more users) — recommend a beachhead: a niche, geography, or use case where the incumbent's network effect is weak or doesn't transfer, matching the cold-start playbook above.
 
 ## Watch-outs
+
 - Network effects are not automatic or infinite — most saturate, and many decay past a point (too many users can reduce value through congestion, noise, or quality dilution); don't assume more users always means more value without a ceiling
 - Confusing simple economies of scale (cheaper unit costs from volume) with genuine network effects (value increasing per-user from more users) — the former is a pipeline advantage; only the latter compounds the way this note describes
 - The cold-start problem kills more platform businesses than competition does — a strategy that assumes network effects will "kick in eventually" without a concrete seeding or subsidy plan for the harder-to-acquire side is not a real go-to-market plan
@@ -51,6 +53,7 @@ First, make the client name which specific type of network effect their business
 - Data network effects are frequently overclaimed; a marginal improvement in a recommendation model from additional data often has diminishing returns — verify the actual improvement curve before pricing in a flywheel that may already be flattening
 
 ## Related
+
 - [business-model-canvas.md](../product-management/business-model-canvas.md) — the BMC's "multi-sided platform" Customer Segment type is the business-model home for the two-sided dynamics described here
 - [flywheel-effect.md](../strategy/flywheel-effect.md) — cross-side network effects are one of the most common mechanisms that power a genuine Collins-style compounding flywheel in platform businesses
 - [value-proposition-canvas.md](../marketing/value-proposition-canvas.md) — a two-sided platform needs a distinct value proposition mapped for each side, not one shared canvas

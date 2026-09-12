@@ -16,17 +16,20 @@ Use Scrum when a team needs a structured but adaptable cadence for shipping incr
 ## How it works
 
 **Why Scrum matters:**
+
 - Improved focus and clarity — working in sprints with a defined goal (delivering a product increment) keeps teams focused and avoids scope creep
 - Enhanced team collaboration — daily stand-ups and other Scrum events promote communication within the development team
 - Faster time to market — regular delivery of product increments allows for early feedback and faster launches
 - Increased adaptability — Scrum is flexible, letting teams adapt to changing priorities or requirements within a sprint
 
 **Core elements — Roles:**
+
 - **Product Owner** — represents the stakeholders and prioritizes the product backlog, ensuring it reflects business needs and user value
 - **Scrum Master** — facilitates the Scrum process, removes roadblocks for the development team, and ensures adherence to Scrum principles
 - **Development Team** — a self-organizing, cross-functional team with the skills necessary to deliver product increments
 
 **Core elements — Artifacts:**
+
 - **Product Backlog** — a prioritized list of features, user stories, and other work items that need to be completed for the product (this is exactly where [prioritization-techniques.md](prioritization-techniques.md) and [user-stories-acceptance-criteria.md](user-stories-acceptance-criteria.md) feed in)
 - **Sprint Backlog** — a subset of items pulled from the product backlog, chosen for a specific sprint
 - **Product Increment** — the usable product functionality delivered at the end of each sprint
@@ -34,6 +37,7 @@ Use Scrum when a team needs a structured but adaptable cadence for shipping incr
 **Sprints:** Scrum operates in time-boxed iterations called sprints, typically lasting 1-4 weeks. Each sprint focuses on delivering a potentially shippable product increment that adds value to the product. Short sprint cycles allow for rapid feedback and let the team adapt to changing requirements or priorities.
 
 **Scrum Events (the ceremonies that structure each sprint):**
+
 1. **Sprint Planning** — the development team and product owner collaboratively plan the work for the upcoming sprint, selecting items from the product backlog
 2. **Daily Stand-up Meetings** — brief daily meetings (often 15 minutes) where team members discuss progress, identify impediments, and plan the upcoming day
 3. **Sprint Review** — a meeting at the end of the sprint to showcase the completed product increment to stakeholders and gather feedback

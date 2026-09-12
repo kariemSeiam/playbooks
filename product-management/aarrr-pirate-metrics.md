@@ -18,24 +18,29 @@ Use AARRR whenever you need to diagnose *where* in the customer journey a produc
 Each stage has a **goal**, **features to consider when building for it**, and **metrics to track**.
 
 ### 1. Acquisition — "How do users find us?"
+
 **Goal:** Attract visitors and turn them into new users; increase app installations.
 **Features to build:** Attractive app icon and name; clear value proposition; App Store Optimization (relevant keywords, compelling visuals/screenshots/videos); user reviews and ratings (encourage satisfied users to leave them); smooth, user-friendly onboarding (quick tutorial, minimize steps to start using the app).
 **Metrics:** Traffic (visitors to the site), App downloads / conversion rate, Bounce rate (% leaving after the first page), User sign-ups, Cost per acquisition (cost of acquiring a new user through marketing), Channel effectiveness, Traffic source distribution.
 
 ### 2. Activation — "Do users have a great first experience?"
+
 **Goal:** Ensure a positive first experience, converting installs into active users.
 **Features to build:** Quick access to core features (minimize navigation barriers); first-time user offers/incentives/promotions (exclusive discounts, rewards for first-timers, promotional campaigns); accessible support/help center and FAQs.
 **Metrics:** Onboarding completion (% completing the onboarding flow), Time to value (time until the user experiences the core benefit), User activation rate (% completing a desired action/milestone), Trial-to-paid conversion (% of trial users who make their first purchase), First-time conversion rate (% of first-time users completing a first purchase).
 
 ### 3. Retention — "Do users come back?"
+
 **Goal:** Encourage and keep users continuing to use the app over time.
 **Features to build:** Personalization (personalized recommendations based on past interactions, special-occasion messages, random rewards, loyalty programs, identifying and fixing drop-off points); push notifications (re-engagement reminders, personalized alerts, promotional banners for new features); feedback loops (surveys to collect user opinions); optimizing speed and responsiveness (minimizing crashes).
 **Metrics:** Churn rate (% of users who stop using the app in a period), User retention rate (% who continue using the app), Repeat purchase rate (% making multiple purchases), User renewal rate; **Engagement sub-metrics:** Session length (average duration per session), Session frequency (average sessions per user), Daily active users (DAU), Monthly active users (MAU).
 
 ### 4. Revenue — "How do you make money?"
+
 **Goal:** Maximize the revenue generated from existing users.
 **Features to build:** In-app purchases via a freemium model (free basic version + premium upgrades); subscription plans (tiered subscriptions, monthly/annual options); loyalty programs (point systems, redeemable rewards).
 **Metrics:**
+
 - **ARPU** (Average Revenue Per User) — over a specific time frame
 - **CLTV** (Customer Lifetime Value) — ARPU × customer lifetime
 - **Customer profitability** — LTV minus CAC (this is where Customer Acquisition Cost re-enters the picture, now netted against lifetime value rather than tracked alone)
@@ -43,6 +48,7 @@ Each stage has a **goal**, **features to consider when building for it**, and **
 - **Revenue churn** — revenue lost due to cancellation, downgrading, or non-renewal (distinct from *user* churn in the Retention stage — you can lose revenue from downgrades without losing the user at all)
 
 ### 5. Referral — "Do users tell others?"
+
 **Goal:** Encourage satisfied users to refer others to the product.
 **Features to build:** Referral program (incentives/rewards/discounts for referrers, two-sided rewards benefiting both referrer and new user); user testimonials (encourage users to share success stories, showcase the positive impact of referrals).
 **Metrics:** Referral rate (% of users who actively refer others), Referral conversion rate (% of referred leads who convert into users/customers).

@@ -25,7 +25,7 @@ Unit economics measures whether a single customer is profitable to acquire and s
 
 **LTV (Lifetime Value)** — the total gross profit a customer generates over the entire time they stay a customer.
 
-```
+```text
 LTV = ARPU × Gross margin % × Average customer lifespan (months)
 Average customer lifespan = 1 / Monthly churn rate
 ```
@@ -34,7 +34,7 @@ Using gross margin (not raw revenue) matters: LTV is meant to answer "how much p
 
 **CAC (Customer Acquisition Cost)** — the fully-loaded cost to acquire one new paying customer.
 
-```
+```text
 CAC = (Total sales + marketing spend in period) / New customers acquired in period
 ```
 
@@ -42,7 +42,7 @@ CAC = (Total sales + marketing spend in period) / New customers acquired in peri
 
 **CAC Payback Period** — how many months it takes a customer's gross profit to repay their own acquisition cost.
 
-```
+```text
 CAC Payback (months) = CAC / (ARPU × Gross margin %)
 ```
 
@@ -66,7 +66,7 @@ A vertical-SaaS company evaluating its paid-acquisition channel:
 - Monthly churn = 3% → average customer lifespan = 1 / 0.03 = 33.3 months
 - Fully-loaded CAC = $1,500 (from $450,000 in quarterly sales + marketing spend ÷ 300 new customers that quarter)
 
-```
+```text
 LTV = 200 × 0.75 × 33.3 = $5,000
 LTV:CAC = 5,000 / 1,500 = 3.33 : 1        → clears the 3:1 floor, but not by much
 CAC Payback = 1,500 / (200 × 0.75) = 1,500 / 150 = 10 months   → under the 12-month bar

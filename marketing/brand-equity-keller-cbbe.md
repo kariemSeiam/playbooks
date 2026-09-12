@@ -10,6 +10,7 @@ tags: [brand, equity, resonance, positioning, awareness]
 A four-stage, six-block model of how a brand is built in a customer's mind, developed by Kevin Lane Keller (Tuck School of Business, Dartmouth) as the academic and practitioner standard for defining and measuring brand equity. Keller's core premise: brand equity is not a company asset sitting independent of customers — it exists only in the differential effect that brand knowledge has on customer response, which means equity has to be built by managing what's actually in customers' heads, one block at a time, bottom-up, with no block skippable.
 
 ## When to use
+
 - Diagnosing a brand that has awareness but weak loyalty or pricing power — something is broken partway up the pyramid, not at the base
 - Structuring a brand-tracking survey, where each pyramid block maps to its own measurable dimension
 - Planning a brand-building roadmap for an early-stage or repositioning client, to sequence investment correctly (no Resonance-building loyalty program before Salience and Meaning exist)
@@ -23,10 +24,12 @@ Four ascending stages, six building blocks, culminating in Resonance at the apex
 **1. Salience (base) — Who are you?** Brand identity, measured on depth and breadth of awareness: can the customer recall or recognize the brand at the right purchase and consumption occasions, across a wide range of situations. Depth is ease of recall; breadth is how many different needs and situations trigger that recall.
 
 **2. Performance & Imagery (2nd level) — What are you?**
+
 - **Performance** — how well the product meets functional needs: primary features, reliability/durability/serviceability, service effectiveness and empathy, style and design, price.
 - **Imagery** — the abstract, social and psychological meaning: who's imagined using it, purchase and usage situations, personality and values, history and heritage.
 
 **3. Judgments & Feelings (3rd level) — What about you?**
+
 - **Judgments** — the customer's personal evaluations: Quality, Credibility (expertise, trustworthiness, likability), Consideration (personal relevance), Superiority relative to alternatives.
 - **Feelings** — the emotional responses the brand evokes: Warmth, Fun, Excitement, Security, Social Approval, Self-Respect.
 
@@ -45,12 +48,14 @@ Apple, worked through the pyramid: **Salience** — near-universal recall across
 Run a quick pyramid audit before recommending any brand spend: for each block, ask what evidence actually exists — survey data, social listening, loyalty/NPS data, qualitative interviews — that the block is established, not assumed. Most SME clients have Salience and some Performance work done, then want to jump straight to "brand loyalty" or "community" tactics at the Resonance level; the model gives you the vocabulary to say "Judgments and Feelings aren't solid yet, so Resonance tactics will underperform," and to redirect budget to the actual gap. Use the six blocks as the outline for a brand-tracking survey — one or two questions per block — so brand health is measured as a sequence rather than a single vague "awareness" number, which also lets you show a client exactly where the pyramid is weakest.
 
 ## Watch-outs
+
 - Confusing brand awareness (Salience alone) with brand equity — a highly recognized brand with weak Judgments or Feelings (known for bad service, say) has negative equity higher up the pyramid; more awareness of a badly regarded brand can make things worse, not better.
 - Skipping straight to Resonance-building tactics (loyalty programs, community features) without validating Meaning and Response first — the model is explicitly sequential; these tactics don't compensate for a shaky base.
 - Treating Performance and Imagery as interchangeable — a brand can win on Performance and still lose on Imagery, and vice versa; both need deliberate investment.
 - The model measures equity in the customer's head, not the balance sheet — pair with the asset-based view in [brand-equity-aaker.md](../marketing/brand-equity-aaker.md) when the deliverable needs to speak to valuation, licensing, or M&A rather than customer perception alone.
 
 ## Related
+
 - [brand-equity-aaker.md](../marketing/brand-equity-aaker.md) — the complementary, asset-based (balance-sheet) view of brand equity
 - [stp-model.md](../marketing/stp-model.md) — the Positioning step feeds directly into what Meaning (Performance and Imagery) the brand should claim
 - [how-brands-grow.md](../marketing/how-brands-grow.md) — a competing evidence-based view that leads with mental and physical availability over emotional resonance

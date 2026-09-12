@@ -10,6 +10,7 @@ tags: [analytics, metrics, ux-quality, retention, cohorts]
 HEART measures the quality of a user experience along five dimensions — Happiness, Engagement, Adoption, Retention, Task Success — developed at Google by researcher Kerry Rodden specifically because UX teams lacked a structured way to turn qualitative UX goals into trackable metrics at scale. This note pairs HEART with the behavioral-analytics techniques (cohort analysis, retention curves) that modern product-analytics tools like Amplitude and Mixpanel use to actually compute its Engagement and Retention dimensions from raw event data. A consultant needs this because a North Star Metric or a revenue number can rise while the underlying user experience quietly degrades for a segment — HEART is the checklist that catches that before it shows up as churn.
 
 ## When to use
+
 - A UX or design decision needs a metric to be evaluated against, and the team's current metrics are all business/revenue numbers with no dimension capturing experience quality.
 - Setting up a product-analytics instrumentation plan from scratch — HEART's Goals-Signals-Metrics grid is a structured way to decide what to track before writing any tracking code.
 - Diagnosing a retention problem in specific detail — cohort retention curves show *when* in a user's lifecycle they drop off, which a single aggregate churn number can't reveal.
@@ -18,6 +19,7 @@ HEART measures the quality of a user experience along five dimensions — Happin
 ## How it works
 
 ### The five HEART dimensions
+
 1. **Happiness** — subjective satisfaction; how users feel about the product. Measured via surveys (CSAT, NPS, in-product satisfaction prompts) — not behavioral event data alone, since satisfaction isn't directly observable from clicks.
 2. **Engagement** — depth and frequency of user involvement, not just presence. Measured via behavioral events: frequency (sessions per week), intensity (actions per session), breadth (number of distinct features used).
 3. **Adoption** — new users starting to use the product, or a specific feature. Measured via new-user or new-feature-usage counts within a defined period.
@@ -27,7 +29,9 @@ HEART measures the quality of a user experience along five dimensions — Happin
 Rodden's own guidance: not every project needs all five dimensions instrumented. Pick the 2–3 most relevant to the specific feature or product goal being evaluated, rather than forcing all five onto every project.
 
 ### Goals-Signals-Metrics (GSM) — turning HEART into trackable metrics
+
 For each relevant HEART dimension, work in this order:
+
 1. **Goals** — state what you're trying to achieve for users in plain language ("Users should find search results relevant and be able to act on them quickly").
 2. **Signals** — list the observable evidence, behavioral or attitudinal, that would indicate progress ("users click the first result and don't immediately re-search"; "users rate search helpfulness highly in a survey").
 3. **Metrics** — turn each signal into something concretely trackable and comparable over time ("% of searches where the user clicks a result within 10 seconds and doesn't issue a new search in the next 60 seconds"; "average post-search CSAT score").
@@ -35,6 +39,7 @@ For each relevant HEART dimension, work in this order:
 Working goal → signal → metric in that order specifically prevents the common failure of picking a metric first because it's easy to track (e.g., "let's track clicks") without establishing it actually signals progress toward a real UX goal.
 
 ### Cohort analysis and retention curves — the mechanics behind Retention
+
 - A **cohort** is a group of users sharing a starting event, usually signup date (e.g., "users who signed up in the week of March 3"). Cohorting by acquisition date, rather than looking at all users in aggregate on a given calendar day, is what lets you compare like-for-like — a user in week 1 of their lifecycle should never be compared directly to a user in week 20 of theirs.
 - A **retention curve** plots, for each cohort, the percentage still active at Day 1, Day 7, Day 30, Day 90, and so on after signup. The curve's *shape* matters more than any single point: a curve that keeps declining indefinitely (a "leaky bucket," never flattening) indicates the product hasn't found lasting value for any stable subset of users; a curve that flattens after an initial drop (the "smile curve," common in healthy retained products) indicates a core group has found durable value and the drop-off is mostly users who were never a fit.
 - **Cohorting by behavior, not just signup date**, is the more diagnostic version — e.g., comparing the retention curve of users who completed a specific onboarding action in week 1 against those who didn't. This is usually how a team discovers its actual activation "aha moment" — the specific early action correlated with much better long-term retention.
@@ -43,6 +48,7 @@ Working goal → signal → metric in that order specifically prevents the commo
 ## Example
 
 A note-taking app instruments HEART for a new "shared workspace" feature using GSM:
+
 - **Adoption** — Goal: "users try the new shared workspace." Signal: "user creates or joins a shared workspace within their first week." Metric: "% of new signups creating/joining a workspace in week 1" — baseline 12%.
 - **Engagement** — Goal: "shared workspaces become a regular part of a team's workflow." Signal: "the team edits it multiple times per week." Metric: "average edits per workspace per week" — baseline 3.1.
 - **Retention** — Goal: "teams keep using the workspace past initial novelty." Metric: cohort retention curve of "% of workspaces still edited in week N," by creation week — the curve drops sharply from 100% (week 0) to 40% (week 2), then flattens near 38% through week 8: a smile curve indicating roughly 38–40% of created workspaces represent genuine, durable adoption.

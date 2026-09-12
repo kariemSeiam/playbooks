@@ -20,7 +20,7 @@ A cap table is the ownership ledger of a company — who owns what percentage, a
 
 ### Pre-money vs. post-money mechanics
 
-```
+```text
 Post-money valuation = Pre-money valuation + New investment
 New investor ownership % = New investment / Post-money valuation
 Existing holders' ownership % after = Existing % before × (Pre-money / Post-money)
@@ -32,7 +32,7 @@ The original (pre-money) SAFE had a structural flaw: when multiple SAFEs stacked
 
 Y Combinator's **post-money SAFE** (2018) fixes this: each SAFE's ownership percentage is fixed and knowable the moment it's signed —
 
-```
+```text
 SAFE ownership % = Investment / Post-money valuation cap
 ```
 
@@ -52,7 +52,7 @@ Founders start with 8,000,000 shares (100% of the company).
 
 **Pre-seed:** raise $500,000 via a post-money SAFE at a $5,000,000 post-money cap.
 
-```
+```text
 SAFE ownership % = 500,000 / 5,000,000 = 10%
 ```
 
@@ -62,14 +62,14 @@ This 10% is fixed and doesn't move regardless of any other SAFE money raised alo
 
 The SAFE converts into this round (assume its $5M cap gives a better price than the round's own terms, so it converts at the cap). Before the option pool and new money are layered in, the pre-Series-A cap table is:
 
-```
+```text
 SAFE holder: 10%
 Founders:    90%
 ```
 
 The option pool (15%) and new Series A investors (25%) together take 40% of the fully-diluted post-round table. The remaining 60% splits between founders and the SAFE holder in their existing 90:10 ratio:
 
-```
+```text
 Founders post-Series A   = 60% × 90% = 54%
 SAFE holder post-Series A = 60% × 10% = 6%
 New Series A investors    = 25%

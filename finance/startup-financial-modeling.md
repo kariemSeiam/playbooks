@@ -32,7 +32,7 @@ If a driver assumption changes — say, a delayed hire — headcount cost drops 
 
 The weak version of a model says "revenue grows 20% per quarter." The driver-based version builds revenue from the actual operating levers that produce it:
 
-```
+```text
 Revenue = New customers/month (driver) × ARPU (driver) × Retention curve (driver)
 New customers/month = Sales reps × Quota attainment % × Deals per rep (drivers)
 ```
@@ -60,7 +60,7 @@ Build **Base** (most likely trajectory), **Bull** (a named upside driver improve
 
 **Bear-case retention shock.** Same cohorts, but retention runs 5 points worse across the board (month 1 = 85%, month 2 = 80%):
 
-```
+```text
 January (age 2, 80%): 100 × 0.80 = 80 active  → $8,000
 February (age 1, 85%): 120 × 0.85 = 102 active → $10,200
 March (age 0, 100%): 140 active                → $14,000

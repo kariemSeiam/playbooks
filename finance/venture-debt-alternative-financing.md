@@ -39,14 +39,14 @@ A Series A company raised $10M at a $10M pre-money in its last round and wants t
 
 **Venture debt option.** Raise a $3,000,000 term loan (30% of the last round), 4-year term, 12 months interest-only at 10% annual interest, warrant coverage 15% of the loan amount ($450,000 notional), priced at the last round's share price.
 
-```
+```text
 Monthly interest-only payment (year 1) = 3,000,000 × 10% / 12 = $25,000/month
 Actual equity dilution from the warrants ≈ 1.5–2% (small slice of fully-diluted shares)
 ```
 
 Compare to raising the same $3M as equity at a (likely down-round-risk) $10M pre-money:
 
-```
+```text
 Equity dilution = 3,000,000 / (10,000,000 + 3,000,000) = 3M / 13M ≈ 23%
 ```
 
@@ -54,7 +54,7 @@ The entire case for venture debt here is that gap: **~1.5–2% dilution vs. ~23%
 
 **Revenue-based financing option** (if the company has $200,000 MRR and high gross margin): advance $1,000,000, repay at 6% of monthly revenue until the 1.5x cap ($1,500,000) is repaid.
 
-```
+```text
 Initial monthly payment = 200,000 × 6% = $12,000/month
 ```
 

@@ -18,11 +18,13 @@ Right after a target segment has been chosen in STP (see [stp-model.md](stp-mode
 Two mirrored halves, read right-to-left (understand the customer first, then design the offer to match):
 
 **Customer Profile** (the target segment, described in their own terms):
+
 - **Gains** — the outcomes and benefits the customer wants.
 - **Pains** — the frustrations, risks, and obstacles the customer experiences before/during/after trying to get their job done.
 - **Jobs-to-be-done** — the tasks the customer is trying to accomplish, functionally or emotionally, that create the need for gains and pains in the first place.
 
 **Value Proposition** (the product, described in terms of what it does *for* that profile):
+
 - **Products & Services** — the concrete list of what's actually offered.
 - **Gain Creators** — how the product/service produces the gains the customer wants.
 - **Pain Relievers** — how the product/service eliminates or eases the specific pains identified.

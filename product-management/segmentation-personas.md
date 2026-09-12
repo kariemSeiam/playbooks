@@ -18,12 +18,14 @@ Do segmentation before you build anything — it's listed as the fourth of the e
 **Why segmentation matters as a product (not just marketing) exercise:** you need to understand your target customers *before* building the app so you can address their actual pains and motives in your features — segmentation isn't a slide for investors, it's an input to the backlog.
 
 **The four segmentation lenses:**
+
 1. **Demographic** — age, gender, education, social class
 2. **Geographic** — region, country, city, population, language
 3. **Psychographic** — interests, opinions, personality, values
 4. **Behavioural** — purchase pattern and usage pattern, buyer stage, loyalty status
 
 **Building a customer persona** from a chosen segment — the components:
+
 - Demographic info
 - Bio (a short narrative — who they are, what their day looks like)
 - Goals
@@ -37,6 +39,7 @@ A persona is not a demographic profile with a stock photo attached — the deck'
 ## Example
 
 **Uber's customer persona**, worked through every field:
+
 - **Age:** 32, **Gender:** Male, **Occupation:** Marketing Manager, **Location:** Urban area with a busy schedule
 - **Bio:** Commutes daily to work using public transportation but seeks a more convenient and comfortable alternative. Values time efficiency and productivity. Enjoys using technology and relies heavily on a smartphone for various tasks.
 - **Goals:** Seeks a reliable and efficient transportation solution for daily commuting; values the convenience of door-to-door service without the hassle of driving.

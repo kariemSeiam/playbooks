@@ -54,6 +54,7 @@ Porter's sharpest claim: a firm that fails to commit to one of the four position
 ## Example
 
 **Airlines — same industry, all four positions occupied simultaneously:**
+
 - **Cost Leadership (broad):** Ryanair / Southwest — standardized single aircraft type, no-frills service, secondary airports, high aircraft utilization, ancillary-fee revenue model. Broad geographic scope, relentless cost focus.
 - **Differentiation (broad):** Emirates / Singapore Airlines — premium cabin experience, service reputation, extensive route network as part of the value proposition, willing to spend on the differentiator (service, brand) that broad-scope buyers value across the entire route map.
 - **Cost Focus (narrow):** A regional low-cost carrier serving one dense short-haul corridor others find unprofitable to serve cheaply — optimizing cost structure for that corridor's specific demand pattern rather than a national network.

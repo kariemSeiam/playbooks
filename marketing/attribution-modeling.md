@@ -15,6 +15,7 @@ tags:
 Attribution modeling is the set of rules for assigning conversion credit across the multiple touchpoints a customer interacts with before converting — solving the practical problem that a sale is rarely caused by one single ad or channel, but budget still has to be allocated somewhere. It matters to a consultant because the choice of model isn't neutral measurement — it's a judgment call that can systematically favor certain channel types (last-touch models structurally overvalue bottom-funnel and retargeting spend, and undervalue brand and awareness spend) and steer a client's entire budget in a biased direction if picked without understanding the trade-off.
 
 ## When to use
+
 - A client is splitting budget across channels using a single, unexamined attribution model — usually last-click, often the default in whatever dashboard they read
 - Debugging a channel that "looks bad" in reporting but the client suspects it's doing real work upstream (social or content driving awareness that converts later via search or direct)
 - Any engagement where iOS 14.5/ATT, cookie deprecation, or privacy regulation has degraded touch-level tracking and the client needs a measurement approach that survives the gap
@@ -50,6 +51,7 @@ An e-commerce client's last-click dashboard shows Branded Search at 40% of conve
 Never accept a client's channel-performance conclusion sourced from a single, unexamined last-click report — ask what model is being used before discussing budget reallocation, since last-click is the near-universal platform default and the single most bias-prone model. For a client with meaningful conversion volume and a walled-garden-heavy channel mix, lean on each platform's built-in data-driven attribution for day-to-day optimization, but sanity-check it against a cross-platform view — DDA inside Google Ads only sees Google's own touchpoints. For a client spending meaningfully on brand or offline channels, or one burned by post-iOS 14.5 tracking gaps, introduce MMM for the top-level budget-split conversation even if it needs 12-24 months of historical data to fit properly. Reserve incrementality tests for the specific, high-stakes disputes — usually retargeting or brand-adjacent channels — where the client's gut and the dashboard disagree and the budget at stake justifies a real experiment.
 
 ## Watch-outs
+
 - Last-click is the near-universal default and the most misleading model left unexamined — it structurally rewards channels that capture already-formed intent and punishes channels that create it.
 - Data-driven attribution is bounded by what a single platform can observe — comparing DDA numbers across platforms is not apples-to-apples and will double-count or omit credit.
 - All rule-based and DDA models describe correlation among observed touchpoints, not causation — credit in an attribution model is not proof that spend there is incremental; only a holdout test answers that.
@@ -57,6 +59,7 @@ Never accept a client's channel-performance conclusion sourced from a single, un
 - Privacy changes keep eroding touch-level tracking fidelity going forward, not as a one-time 2021 event — build any attribution recommendation expecting individual-level data to keep getting noisier, not to stabilize.
 
 ## Related
+
 - [growth-loops.md](../marketing/growth-loops.md) — measuring which loop or channel actually drove a conversion is an attribution problem
 - [marketing-mix-4ps.md](../marketing/marketing-mix-4ps.md) — the model's own listed disadvantage, no built-in success metric, is exactly the gap attribution modeling fills
 - [customer-journey-mapping.md](../marketing/customer-journey-mapping.md) — attribution assigns credit across the same touchpoints a journey map visualizes

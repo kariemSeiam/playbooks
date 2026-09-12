@@ -10,6 +10,7 @@ tags: [growth, channels, distribution, fit, gtm]
 Brian Balfour's argument that a product's growth model must be designed around the specific mechanics and constraints of the distribution channel it depends on — not the other way around — because channels aren't neutral pipes. Each one has its own rules (algorithm behavior, unit economics, content format, user intent) that either amplify or actively suppress a given product's growth mechanic. The consultant-relevant implication: a product built without a channel in mind, then handed to a growth or marketing team to "figure out distribution," is usually solving the sequencing backwards, and the fix is often a product change, not a better campaign.
 
 ## When to use
+
 - A product has genuine product/market fit — customers who have it love it — but growth still stalls; diagnosing whether the blocker is a channel mismatch, not a positioning or demand problem
 - Choosing a primary growth channel for a new product before building the growth mechanic around it
 - A client insists on a specific channel, because a competitor uses it or a founder favors it, without checking whether the product's actual usage pattern fits that channel's mechanics
@@ -44,12 +45,14 @@ A B2B scheduling tool has strong PMF — every customer who tries it loves it, r
 When growth stalls despite validated PMF, run the mismatch check before recommending more budget on the current channel: does the product's actual usage pattern — how it's shared, how visible its use is to non-users, how long the buying decision takes, how well it maps to existing search intent or platform content formats — genuinely fit the mechanics of the channel currently getting the spend? If not, present two honest options: change the channel to one that fits the product as it exists today, or change the product's shareable/discoverable surface to fit the channel the client is committed to. Don't let the client keep pouring spend into a mismatch on the assumption that better creative or more budget will eventually fix a structural mechanics problem. For an early-stage client still designing the product, raise this before the build — ask which channel the founding team actually believes is the primary growth engine, and design the product's core action around that channel's mechanics from day one.
 
 ## Watch-outs
+
 - "It worked for [comparable company]" is the most common trap — a tactic that worked for a competitor only transfers if the product's actual mechanics (shareability, visual demonstrability, price point, sales-cycle length) match theirs, not just the product category.
 - Product-Channel Fit is not static — a channel's own mechanics change (algorithm updates, new ranking factors, ad-platform policy shifts, see also the Physical Availability point in [how-brands-grow.md](../marketing/how-brands-grow.md)), so a fit that existed at launch can erode over time without any change to the product itself.
 - Don't diagnose a channel mismatch as a reason to abandon a channel entirely when the real fix is a smaller product-surface change, like the embedded-link example above — the cheaper fix is usually adjusting what the product shares or shows, not switching channels wholesale.
 - This framework assumes genuine PMF already exists — if growth is stalling because the product doesn't actually solve the problem well, no amount of channel-mechanics optimization will fix it; validate PMF first (see [mvp-customer-validation.md](../product-management/mvp-customer-validation.md)) before diagnosing a channel problem.
 
 ## Related
+
 - [growth-loops.md](../marketing/growth-loops.md) — the specific loop mechanic a product runs is itself a channel-fit decision
 - [how-brands-grow.md](../marketing/how-brands-grow.md) — Physical Availability is, in modern digital terms, a channel-distribution constraint on growth
 - [mvp-customer-validation.md](../product-management/mvp-customer-validation.md) — validating PMF is the precondition this framework assumes is already true

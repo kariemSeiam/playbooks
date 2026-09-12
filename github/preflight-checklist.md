@@ -22,6 +22,7 @@ specific has been said.
 
 Always, even for "just a quick commit." Read the actual output, don't
 assume it matches expectation. Specifically look for:
+
 - Files modified/untracked that you didn't cause — a sign that some other
   work (another process, an earlier half-finished task) is sitting in this
   tree. Don't touch it, don't assume it's safe to sweep in.

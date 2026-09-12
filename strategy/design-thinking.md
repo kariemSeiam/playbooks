@@ -10,6 +10,7 @@ tags: [innovation, human-centered, prototyping, empathy, problem-solving]
 Design thinking is a human-centered methodology for innovating on ill-defined problems: five non-linear, iterative stages — Empathize, Define, Ideate, Prototype, Test — built around understanding real user needs before generating or committing to solutions. It was developed as a practice at IDEO (David Kelley, Tim Brown) and formalized into a teachable process by Stanford's d.school. A consultant needs it as the default method whenever the problem itself might be mis-framed — not "optimize this known process" but "we don't actually know what our users need," where jumping straight to solutioning just produces a well-executed answer to the wrong question.
 
 ## When to use
+
 - The problem is ambiguous or ill-defined, and the initial framing might itself be wrong
 - The client needs to innovate on customer or user experience, not just tune an internal process
 - The organization keeps reapplying an old solution to a problem that has changed underneath it
@@ -39,6 +40,7 @@ Doug Dietz, a GE Healthcare designer, discovered that a large share of pediatric
 Use it for early-stage service or product redesign engagements where the client's own framing of the problem is suspect. Insist on real field time for Empathize — a handful of actual user interviews or observations, not a boardroom session guessing at what users want — before anyone touches Define. Timebox Ideate sessions and enforce a strict no-criticism rule to protect divergence. Keep prototypes intentionally rough: client executives often want to polish a prototype into something that looks finished, which defeats the purpose (fast, cheap learning) and makes the team defensive during Test instead of receptive to bad news. Budget for at least two to three test-and-iterate cycles, not one big reveal — the process is designed to loop.
 
 ## Watch-outs
+
 - Treating the five stages as a strict linear sequence (a stage-gate process) defeats the design — looping back is the point, not a sign of poor planning
 - Skipping Empathize and starting from the team's own assumptions about users is the most common shortcut, and it reliably produces solutions nobody asked for
 - Overly polished prototypes make teams emotionally attached and defensive during Test, undermining the honest feedback the stage exists to generate
@@ -46,6 +48,7 @@ Use it for early-stage service or product redesign engagements where the client'
 - It is a strong tool for human-centered, experience problems and a weaker one for problems that are primarily systemic or structural (see [systems-thinking.md](systems-thinking.md)) or purely technical and engineering-constrained
 
 ## Related
+
 - [mvp-customer-validation.md](../product-management/mvp-customer-validation.md) — Prototype and Test map directly onto build-measure-learn validation loops once past initial ideation
 - [first-principles-thinking.md](../strategy/first-principles-thinking.md) — Define's reframing step is sharper when paired with a first-principles decomposition of the problem itself
 - [value-proposition-canvas.md](../marketing/value-proposition-canvas.md) — Empathize and Define work typically produces exactly the customer pains/gains data a value proposition canvas needs

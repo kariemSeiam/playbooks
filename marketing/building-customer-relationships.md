@@ -17,16 +17,19 @@ As soon as a business has its first customers, not after it "has time." Also rea
 
 **Why it matters — two benefit categories, both with hard numbers attached:**
 
-*Customer Retention*
+### Customer retention
+
 - 90% of customers prefer doing business with a brand they already know and trust rather than trying a new product.
 - Maintaining the attention of repeat customers costs 5 times less than attracting new customers.
 - Repeat customers spend significantly more money — specifically 67% more — than first-time buyers.
 
-*Improving Loyalty*
+### Improving loyalty
+
 - Leads to increased sales: customers keep coming back repeatedly, so the business can spend less on marketing campaigns as word of mouth starts selling for it.
 - Enhances engagement: customers who truly love the brand and product are more likely to respond to email surveys, attend brand-related events, join loyalty programs, and support the business on social media through likes, shares, tags, and comments.
 
 **Practical tips for building the relationship:**
+
 - Don't just think about the current sale; consider future sales.
 - Ask customers about their preferences.
 - Present the value of the product (not just the transaction) to the customer.

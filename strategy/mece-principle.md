@@ -28,6 +28,7 @@ MECE (pronounced "mee-see") — Mutually Exclusive, Collectively Exhaustive — 
 ### How MECE breakdowns are actually built
 
 Minto's method (from the Pyramid Principle) is to build the breakdown from a single, explicit **structuring dimension** — a defined basis of division — rather than mixing dimensions within the same level of a breakdown. Common structuring dimensions:
+
 - **Process/sequence** — break a problem into the stages of a process it moves through (e.g., a customer journey: awareness → consideration → purchase → retention).
 - **Structure/components** — break a whole into its physical or organizational parts (e.g., a company's costs by department, a product by its components).
 - **Variable/formula** — break a metric into the algebraic factors that produce it (e.g., revenue = price × volume; profit = revenue − cost).
@@ -49,6 +50,7 @@ Minto and later practitioners note that perfect exhaustiveness is sometimes impr
 A first-pass (non-MECE) list from the client's internal team: "customers are churning," "sales is signing bad-fit customers," "our onboarding is slow," "support tickets are up," "competitors are cheaper," "the product has bugs." This list mixes causes, symptoms, and categories at different levels, and several items overlap (bad-fit customers from sales *cause* churn; slow onboarding *causes* both churn and support tickets) — not MECE, and not useful for prioritizing a fix.
 
 **Restructured using the variable/formula dimension** — net revenue retention = (starting revenue − churned revenue − downgraded revenue + expansion revenue) / starting revenue:
+
 - **Churn (accounts lost entirely)** — sub-broken by cause: acquisition-quality issues (sales signing bad-fit customers) vs. onboarding/adoption failures (customers who never reached value) vs. competitive losses (customers who left for a specific competitor).
 - **Downgrades (accounts staying but paying less)** — sub-broken by: usage decline vs. active plan-downgrade requests vs. seat reduction from the customer's own headcount changes.
 - **Expansion (accounts paying more)** — the offsetting positive factor, sub-broken by: upsell to existing users vs. seat growth vs. cross-sell of new product lines.

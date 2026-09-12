@@ -16,6 +16,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 ## How it works
 
 **Factors to weigh when prioritizing any feature**, regardless of technique:
+
 - **Customer value** — how important is it to users? Does it solve a significant problem or improve experience?
 - **Business goals** — does it align with overall objectives and strategy?
 - **Technical feasibility** — can it be built with available resources/technology in the given timeframe?
@@ -23,6 +24,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 - **Market demand** — is there a clear market need for it?
 
 **Why prioritization matters** (the case for doing this formally rather than informally):
+
 - Focus and clarity — in a world of limited resources, it stops teams from spreading thin across too many features and delivering mediocre results across the board
 - Efficiency and resource management — lets teams allocate developers/designers/testers strategically toward highest-ROI work
 - Improved decision-making — a structured framework for comparing features against predefined criteria, enabling data-driven "include / delay / eliminate" calls
@@ -34,6 +36,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 ### Simple categorization
 
 **1. NNL (Now / Next / Later) Method** — a visual, low-overhead board (like a Kanban board with three columns):
+
 - **Now** — current focus; critical, needs immediate attention; what you're actively working on this sprint/iteration
 - **Next** — important but not urgent; planned for the near future, addressed once "Now" items finish; kept readily accessible
 - **Later** — considered for the future but not essential near-term; interesting ideas, potential improvements, or long-term goals to revisit as priorities evolve
@@ -44,6 +47,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 *Cons:* limited detail — doesn't break down task complexity, so you may need additional planning tools; oversimplification — a three-column structure may not capture complex projects with many interdependencies.
 
 **2. MoSCoW Method** — categorize every feature into one of four buckets:
+
 - **M — Must-Have:** non-negotiable, essential for the project's success; the project cannot be completed/is not viable/may be unsafe or not legal without it; effectively the MVP boundary
 - **S — Should-Have:** important and highly desirable, contributes significantly to value, but the project can still function without it; may be painful to leave out but a workaround exists
 - **C — Could-Have:** nice to have but not essential; desirable but less important than Should-Have; considered only if there's extra time/budget
@@ -57,6 +61,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 ### Scoring and ranking
 
 **3. RICE Scoring** — a numeric framework combining four factors into a single comparable score:
+
 - **Reach** — the estimated number of people affected by the feature within a defined timeframe (e.g., per launch month, per quarter); higher reach → potentially larger impact on the user base
 - **Impact** — the magnitude of positive impact on users, scored on a fixed multiplier scale: Massive (3x) — significantly improves a core experience or solves a critical pain point; High (2x) — substantial benefit; Medium (1x) — moderate improvement or minor inconvenience addressed; Low (0.5x) — limited positive impact; Minimal (0.25x) — negligible impact
 - **Confidence** — how confident you are in the Reach and Impact estimates: High (100%) — strong data or user research supports the estimate; Medium (80%) — reasonable assumptions plus some user feedback; Low (50%) — uncertain, limited data or insights
@@ -72,6 +77,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 *Limitations:* subjectivity — estimating Reach, Impact, and Confidence still involves judgment calls; data dependence — accuracy depends entirely on the quality of your data and user research; simplicity — RICE may not capture all aspects of value for complex features with strategic (non-quantifiable) considerations.
 
 **4. Weighted Scoring** — a customizable multi-criteria method for when a single fixed formula (like RICE) doesn't fit your context:
+
 - **Criteria** — define a set of criteria relevant to your product and process (user impact, business value, technical feasibility, development effort, or anything else that matters to you)
 - **Weighting** — assign each criterion a weight reflecting its relative importance (a simple 1-5 point system, or a percentage allocation e.g. 10% to 50%); a higher weight = a more critical factor
 - **Scoring each feature** — evaluate every feature against every criterion using a consistent scale (e.g., 1-10 points, or Low-Medium-High)
@@ -85,6 +91,7 @@ Reach for a prioritization technique the moment a backlog has more validated ide
 *Tips for effective weighted scoring:* keep it simple (5-7 criteria max to avoid overcomplicating); involve stakeholders (product, dev, design) when defining criteria and weights; refine and iterate the criteria/weights/scoring system as you gain experience and data.
 
 **Other methods worth knowing exist** (named in the source material but not elaborated — evaluate independently before using):
+
 - **Kano Model** — sorts features by the type of satisfaction they produce (basic/expected, performance, delighter)
 - **Feasibility, Desirability, Viability (FDV)** — a three-lens sanity check borrowed from design thinking
 - **Value/Effort Scale** — a simple 2x2 plot of value against effort, similar in spirit to RICE but without the multiplicative formula

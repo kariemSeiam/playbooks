@@ -38,6 +38,7 @@ The strategy canvas is the diagnostic and construction tool: a chart with the in
 ### Six Paths Framework (where to look for blue oceans)
 
 Kim and Mauborgne's method for finding candidate reconstructions of market boundaries, deliberately looking *across* the frames most strategy work stays inside:
+
 1. **Across alternative industries** — not just direct competitors, but products/services that solve the same underlying problem differently (a solo entrepreneur "competes" against management consultants for problem-solving budget, but is a wholly different industry).
 2. **Across strategic groups within an industry** — look at what makes buyers trade up or down between price/performance tiers within the same industry.
 3. **Across the chain of buyers** — the purchaser, the user, and the influencer are often different people with different needs; targeting a neglected buyer-chain link can open new value.
@@ -55,6 +56,7 @@ Kim and Mauborgne test a resulting strategy against: **focus** (does the value c
 The traditional circus industry (Ringling Bros. and similar) competed on: star performers, animal shows, aisle concession sales, multiple show arenas, humor/thrills, danger. It was a shrinking, low-differentiation, high-cost industry (animal care and star-performer contracts are expensive) competing for the same declining audience.
 
 Applying ERRC:
+
 - **Eliminate:** star performers, animal shows, aisle concessions, multiple simultaneous show arenas — all costly, none valued equally by the new target audience.
 - **Reduce:** humor and danger — retained in lighter form, no longer the core draw.
 - **Raise:** a unique venue/tent experience.

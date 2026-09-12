@@ -20,6 +20,7 @@ Financial planning is the discipline of using forward-looking projections to dec
 **Definition:** financial planning is a method that uses future planning to track an individual's or establishment's financial position, aiming to ensure future money needs are met — it's the process of making appropriate decisions about money that lead to achieving the individual's or establishment's goals.
 
 **Long-term financial planning** — plans covering roughly 2 to 10 years, with the exact horizon set by the nature of the company's activity. It's typically concerned with:
+
 - How to implement investment plans
 - Research into new products
 - Identifying appropriate sources of financing

@@ -19,6 +19,7 @@ The cash flow statement tracks every pound of cash actually entering and leaving
 ## How it works
 
 **Objectives of the cash flow statement:**
+
 - Report cash receipts and payments within a limited period.
 - Present that information split across operating, investing, and financing activities.
 - Let investors judge whether the business can generate positive cash flow going forward, meet its obligations, distribute profits, and how much external financing it's likely to need.
@@ -43,13 +44,14 @@ The cash flow statement tracks every pound of cash actually entering and leaving
 4. **Calculate cash flow from financing activities** — including dividends paid.
 5. **Determine the final cash balance** — the change in net cash for the period equals the sum of the three activity flows; this is the total cash the company gained or lost over the reporting period.
 
-```
+```text
 Net cash flow = CFO + CFI + CFF
 (where CFO/CFI/CFF are each net of that category's inflows minus outflows,
  and each can itself be positive or negative)
 ```
 
 **Positive vs. negative cash flow:**
+
 - **Positive** — the business's liquid assets are increasing. This is the state to maintain: it enables settling debts, reinvesting in the business, returning money to shareholders, paying expenses, and funding the future.
 - **Negative** — a persistent negative *operating* cash flow specifically is the red flag: it means the business needs more external funds just to keep operating, and left unaddressed leads toward bankruptcy. (A single negative period from a large, deliberate investment purchase is not automatically alarming — check *which* category is negative before reacting.)
 
@@ -59,7 +61,7 @@ The source deck's own worked example (simplified, illustrative): a business esti
 
 Treat that literally-summed example with caution: it works only because all three figures were framed as net *inflows* for that period. In practice, each category's cash flow can run negative (e.g., financing activities are negative in a period where the business repays more debt than it raises), and you must net inflows against outflows within each category before summing across the three:
 
-```
+```text
 Net cash flow = (Operating in − Operating out)
               + (Investing in − Investing out)
               + (Financing in − Financing out)

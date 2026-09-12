@@ -18,6 +18,7 @@ Whenever a client needs to define or defend a Unique Selling Proposition (USP), 
 **Why do it at all.** Competitor research does three things: (1) identifies the business's own USP by contrast, and whether there's enough unmet demand in the market; (2) shows what competitors are doing right and where they're falling short — continuously monitoring their successes, failures, and investments signals how the market is moving; (3) informs pricing — knowing the competitive landscape helps set a price that maintains a competitive edge. Key message: **competitor research identifies where your competitors are and where you could be.**
 
 **Getting started (5 steps):**
+
 1. **Identify main competitors** — both direct (same product, same customer) and indirect (different product, same customer need).
 2. **Analyze their medium** — emphasize online presence (website, social, marketplace listings) since that's usually the most observable and fastest-changing signal.
 3. **Gather information** — "wear the consumer's hat": go through their buying journey as a customer would, don't just read their About page.
