@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 The agent's own standing law, not a documentation folder. `playbooks/`
 exists to be consulted before acting — on any task, in any project this
 agent touches, not only inside this repo — the same way a constitution
-outranks the memory of one conversation. 143 notes, 12 folders, still
+outranks the memory of one conversation. 144 notes, 12 folders, still
 young: right now it covers git/GitHub discipline, markdown craft, how an
 agent extends itself (Skills, MCP servers, plugins — across Claude Code
 and OpenCode, not just one harness), SEO/discoverability, and a first
@@ -60,18 +60,22 @@ in the shape its siblings already use (below).
 
 ## Commands
 
-The only tooling in this repo is markdown linting, defined in
-`language/markdown/markdownlint.config.json` (not yet copied to a root
-`.markdownlint.json`):
+The only tooling in this repo is markdown linting. The config lives at
+`.markdownlint.json` (root, copied from
+`language/markdown/markdownlint.config.json`, which stays the documented
+canonical source) and runs in CI on every push via
+`.github/workflows/lint-docs.yml`:
 
 ```bash
-npx markdownlint-cli2 "**/*.md" "#node_modules" "#dist"
+npx markdownlint-cli2 "**/*.md" "#node_modules"
 ```
 
-`language/markdown/tooling.md` documents why each rule override exists
-(line length and inline-HTML checks are deliberately off, among others) —
-read it before changing the config rather than reasoning from the rule
-descriptions alone.
+Run it before committing — the repo is currently at zero violations and
+should stay there. `language/markdown/tooling.md` documents why each rule
+override exists (line length and inline-HTML checks are deliberately off,
+MD029 permits either ordered-list style) and — importantly — why `--fix`
+is not safe to run unsupervised on MD044. Read it before changing the
+config rather than reasoning from the rule descriptions alone.
 
 ## The declarative note shape (fixed, every field/domain file)
 

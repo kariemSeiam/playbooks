@@ -5,7 +5,7 @@ Standing law and standing knowledge for an agent that reads before it acts, not 
 [![lint-docs](https://github.com/kariemSeiam/playbooks/actions/workflows/lint-docs.yml/badge.svg)](https://github.com/kariemSeiam/playbooks/actions/workflows/lint-docs.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**[Why this exists](#why-this-exists) · [What's inside](#whats-inside) · [The note shape](#the-declarative-note-shape) · [Extensions](#extensions--the-newest-pillar) · [How to use this](#how-to-use-this) · [FAQ](#faq)**
+**[Why this exists](#why-this-exists) · [Use it](#use-it--paste-this-into-your-agent) · [What's inside](#whats-inside) · [The note shape](#the-declarative-note-shape) · [Extensions](#extensions--the-newest-pillar) · [How to use this](#how-to-use-this) · [FAQ](#faq)**
 
 ---
 
@@ -14,7 +14,7 @@ Standing law and standing knowledge for an agent that reads before it acts, not 
 Every session without a playbook starts from zero: the same git discipline
 re-derived from vibes, the same "is this markdown readable or agent-
 navigable" tradeoff guessed at again, the same framework half-remembered
-from a source skimmed once. 143 notes, researched once and consulted every
+from a source skimmed once. 144 notes, researched once and consulted every
 time since, close that gap — and the gap is worth naming precisely, not
 just asserting:
 
@@ -24,6 +24,35 @@ just asserting:
 | Writing markdown that's either pleasant for a human or navigable for an agent, never both | `language/markdown/` — 13 notes researched from Google's developer style guide, the Diátaxis framework, and the `markdownlint` rule set, on the premise that the two disciplines are actually one |
 | Treating "Skill," "MCP server," and "plugin" as interchangeable jargon | `extensions/` — what each mechanism actually is, when each is the right one, which travel across agent harnesses by open design and which don't, with real external implementations studied in `*/maps/` |
 | A framework applied from a half-remembered summary of a book or a PDF | 116 declarative notes — 110 business, 3 technical, 3 SEO — one fixed 7-part shape each, definition through watch-outs, every one grounded enough to say something real in front of a client |
+
+## Use it — paste this into your agent
+
+No install script, no setup docs to read. Copy this into whatever coding
+agent you already run and it does the rest, for its own environment:
+
+```text
+Set me up with the Playbooks standing-law vault:
+https://github.com/kariemSeiam/playbooks
+
+1. Clone it to ~/.playbooks — ask me first if you'd put it somewhere else.
+2. Work out which agent harness you are and where your *global*
+   instructions file lives (Claude Code: ~/.claude/CLAUDE.md, OpenCode:
+   ~/.config/opencode/AGENTS.md, otherwise whichever one you actually read).
+3. Append to it — never overwrite it, and update in place if a Playbooks
+   pointer is already there — a short block telling yourself to check
+   ~/.playbooks/README.md for a governing note before any non-trivial git,
+   markdown, agent-extension, SEO, or business-domain decision, and to
+   defer to the current project's own stated conventions wherever they
+   differ from it.
+4. Read the file back and show me exactly what changed.
+5. Tell me whether I need to restart my session before it takes effect.
+
+Ask before overwriting anything you did not create.
+```
+
+Prefer to browse first? Everything below is readable as plain files —
+nothing here needs installing to be useful. The block above only matters
+once you want it consulted automatically instead of by memory.
 
 ## What's inside
 
@@ -58,7 +87,7 @@ facts about the world:
 |---|---|---|
 | `github/` | 5 | Commit anatomy, branching/concurrency, GitHub's platform-maturity ladder, and a discoverability checklist for anything made public — most of GitHub's ceremony is overhead below a certain project size, and a liability above it if skipped |
 | `language/markdown/` | 13 | Syntax, voice, document types, frontmatter, GitHub-flavor and Obsidian-flavor rendering, README craft, the `llms.txt` spec, ADRs |
-| `extensions/` | 9 (+1 map) | Skills, MCP servers, plugins — the mechanics, the open ecosystem, and when a plain note earns promotion into an auto-loading Skill |
+| `extensions/` | 10 (+1 map) | Skills, MCP servers, plugins — the mechanics, the open ecosystem, and when a plain note earns promotion into an auto-loading Skill |
 
 **Declarative — what the agent knows**, independent of any instruction
 about its own behavior:
@@ -155,7 +184,7 @@ in the shape its siblings already use.
 <summary><b>Why isn't this just written into CLAUDE.md directly?</b></summary>
 <br>
 Token budget and scope. CLAUDE.md is loaded every session whether or not
-any of it is relevant to the task at hand; a 143-note vault loaded in full
+any of it is relevant to the task at hand; a 144-note vault loaded in full
 every time would be almost entirely wasted context. Splitting it into
 folders with their own README indexes means only the relevant slice loads
 — the same cover/chapter/appendix discipline <a href="language/markdown/for-agents.md"><code>language/markdown/for-agents.md</code></a>
@@ -176,7 +205,7 @@ notes most exposed to drift.
 </details>
 
 <details>
-<summary><b>What stops this from becoming 143 shallow summaries?</b></summary>
+<summary><b>What stops this from becoming 144 shallow summaries?</b></summary>
 <br>
 The note shape itself, specifically section 5. A note that can't say
 something a consultant would actually tell a client — not restated

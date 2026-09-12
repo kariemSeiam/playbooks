@@ -9,6 +9,13 @@ is warranted (see `github/platform.md`).
 
 ### Added
 
+- A copy-paste onboarding prompt in the README: one block a reader drops
+  into whatever agent they already run, which then detects its own
+  harness, clones the vault, and wires it into that harness's global
+  instructions file — merging, never overwriting.
+- `extensions/onboarding-prompt.md` — the standing law behind that block:
+  the five things a paste-install prompt has to control end to end, since
+  the moment it's pasted the publisher has no steering left.
 - CI: `.github/workflows/lint-docs.yml` runs `markdownlint-cli2` on every
   push and PR, wired exactly as `language/markdown/tooling.md` already
   prescribed but had never actually been applied to this repo.

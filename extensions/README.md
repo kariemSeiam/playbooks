@@ -41,6 +41,13 @@ substance split across focused files underneath it.
   mechanisms under the same name, and why checking what's already wired
   in usually beats adopting a plugin-sourced subagent collection.
 
+## Files in this folder
+
+- [onboarding-prompt.md](onboarding-prompt.md) — the publisher's side of all of this: how
+  to write the copy-paste block that turns a reader's own agent into the
+  installer, and the five things it has to control end to end because the
+  moment it's pasted there's no steering left.
+
 ## Why Skills and MCP travel across harnesses and plugins mostly don't
 
 Not every mechanism in this folder generalizes the same way, and that
