@@ -38,6 +38,11 @@ that's the test for which side of the split it's on.
 - [ai-agent-architecture-patterns.md](ai-agent-architecture-patterns.md) — ReAct, tool use, planning,
   reflection, multi-agent orchestration, RAG, human-in-the-loop. The
   patterns a real subagent/orchestrator system would be built from.
+- [reverse-tunnel-self-hosting.md](reverse-tunnel-self-hosting.md) — exposing a
+  CGNAT/no-static-IP device as a public HTTPS API via an outbound reverse
+  SSH tunnel + VPS reverse proxy, and the fail2ban-collateral-ban,
+  jail-precedence, and Toybox-vs-GNU pitfalls that actually bite in
+  production.
 
 Each note stands alone — read the one relevant to the task, not the whole
 folder start to end. New fields (beyond software engineering) get added
