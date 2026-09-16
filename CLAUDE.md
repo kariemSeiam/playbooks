@@ -7,14 +7,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 The agent's own standing law, not a documentation folder. `playbooks/`
 exists to be consulted before acting — on any task, in any project this
 agent touches, not only inside this repo — the same way a constitution
-outranks the memory of one conversation. 145 notes, 12 folders, still
+outranks the memory of one conversation. 151 notes, 13 folders, still
 young: right now it covers git/GitHub discipline, markdown craft, how an
 agent extends itself (Skills, MCP servers, plugins — across Claude Code
-and OpenCode, not just one harness), SEO/discoverability, and a first
-slice of software-engineering and business-domain knowledge. It is meant
-to keep absorbing whatever domain the agent needs real competence in
-next, one researched note at a time — never a finished catalog to browse
-once and consider done.
+and OpenCode, not just one harness), SEO/discoverability,
+agentic-commerce/dropshipping economics, and a first slice of
+software-engineering and business-domain knowledge. It is meant to keep
+absorbing whatever domain the agent needs real competence in next, one
+researched note at a time — never a finished catalog to browse once and
+consider done.
 
 Two different kinds of law live here, flat, no wrapper folder around
 either (`README.md`: a playbook is already a collection of fields, so
@@ -32,14 +33,18 @@ word):
   which don't, and when a note elsewhere in this vault earns promotion
   into an actual auto-loading Skill instead of a manually-consulted
   file).
-- **Declarative — what the agent knows.** `software-engineering/` and
+- **Declarative — what the agent knows.** `software-engineering/`,
   `seo/` (technical/on-page/off-page fundamentals, Generative Engine
   Optimization, and GitHub/npm-specific discoverability — its own pillar
   because it spans client-facing marketing knowledge and this repo's own
-  publishing practice) plus the business fields — `finance/`,
-  `marketing/`, `strategy/`, `operations/`, `product-management/`,
-  `people-org/`, `sales-and-bizdev/` — atomic notes distilled from a
-  separate research/sources pipeline, one topic per file.
+  publishing practice), and `ecommerce/` (market-selection economics,
+  platform ranking algorithms, product-feed schema, and the emerging
+  agentic-commerce protocol/security layer — its own pillar because it
+  spans real financial stakes distinct from general marketing or being
+  found) plus the business fields — `finance/`, `marketing/`,
+  `strategy/`, `operations/`, `product-management/`, `people-org/`,
+  `sales-and-bizdev/` — atomic notes distilled from a separate
+  research/sources pipeline, one topic per file.
 
 Each folder's own `README.md` is the index for what it actually holds —
 read that before the content inside it.
