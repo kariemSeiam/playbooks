@@ -144,3 +144,8 @@ advice isn't.
 - **[developer-platform-discoverability.md](developer-platform-discoverability.md)** — GEO applied specifically to a
   GitHub/open-source presence, where "best MCP server for X"-style
   comparison queries are exactly the fan-out this note describes.
+- **`../ecommerce/geo-copywriting-framework.md`** — this note's fan-out
+  mechanism and citation-matching stats applied specifically to product
+  copywriting (P-A-S-B sentence structure, a documented before/after
+  case with real conversion numbers) — read this note first, then that
+  one for the commerce-specific application.

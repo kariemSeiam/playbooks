@@ -5,6 +5,46 @@ re-argued reasoning here. The reasoning behind each step lives in
 [syntax.md](syntax.md), [voice.md](voice.md), [document-types.md](document-types.md), and [for-agents.md](for-agents.md); read
 those once, then use this list per-file afterward.
 
+## 0. Decide the mutation type before writing anything
+
+A vault like this one is closer to an encyclopedia than a folder of
+notes: the default action on new information is never "add a new file."
+Before drafting, answer explicitly:
+
+- **Does this fact already have a home?** Search the target domain's
+  existing notes (grep for the concept, read the folder's `README.md`)
+  before assuming nothing covers it. If a note already covers 80% of it,
+  the action is **extend that note**, not create a sibling with
+  overlapping scope.
+- **Does new information contradict or supersede an existing note?**
+  (a stat updated, a platform renamed its algorithm, a protocol
+  deprecated). The action is **rewrite the affected section in place**,
+  including replacing the old figure — not appending a "2026 update"
+  paragraph underneath the stale one. A reader should never have to
+  figure out which of two numbers in the same file is current.
+- **Has a note's premise stopped being true?** (a tool shut down, a
+  tactic got patched out, a market shifted enough that the guidance is
+  actively wrong now). The action is **delete the note** (or the
+  specific stale section) and fix every inbound link, not leave it as
+  dead weight with a disclaimer bolted on.
+- **Is this genuinely a new, independent concept** with no existing note
+  covering it and no natural home inside a sibling note's scope? Only
+  then does a new file get created — and even then, check whether it's
+  small enough to be a section of an existing note instead of a full
+  file (a full file costs a `README.md` index line and a permanent
+  discovery surface forever; a section costs one heading).
+- **Would this fact, if wrong, actively mislead someone who trusted this
+  vault?** If the honest answer is "it's interesting but not load-
+  bearing," it may not deserve a place here at all — this vault is
+  meant to be relied on, not a running log of everything ever
+  researched. Not every research finding earns a permanent entry.
+
+The failure mode this step exists to prevent: treating "add" as the only
+verb, which turns an encyclopedia into a pile of research logs that
+happen to sit in the same folder — technically searchable, but nobody
+can trust any single fact in it without cross-checking every file that
+might also mention it.
+
 ## 1. Name the document type
 
 One word: tutorial, how-to, reference, or explanation (`document-

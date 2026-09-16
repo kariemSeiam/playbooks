@@ -37,36 +37,37 @@ specifically about what the *prose* should say.
 
 ## How it works
 
-**Query fan-out — why the head keyword is no longer the target.** A
-generative engine doesn't run a buyer's literal question against an
-index; it decomposes it into 6-20 parallel sub-queries, retrieves
-passages for each independently, then synthesizes one cited answer.
-"Best non-toxic all-purpose cleaner for a home with a baby and a dog"
-fans out into distinct decision nodes a buyer must resolve before they
-can act: is it actually safe (ingredients), concentrate vs. ready-to-use
-(cost/waste trade-off), cost per use, third-party certifications, and
-what real buyers report. Notice none of these five nodes is the head
-keyword "all-purpose cleaner" — the fan-out lives entirely in the
-adjacent decisions. A measured consequence: AI citations match a
-traditional Google top-10 result only 7-12% of the time, because the AI
-is citing whichever page best answers a *sub-question*, not whichever
-page best targets the head query. A further complication worth knowing:
-only about 27% of sub-queries stay consistent across repeated searches
-of the same head question — fan-out isn't fully deterministic, so the
-practical implication is covering the full semantic space of likely
-sub-questions rather than trying to identify and target one fixed set.
+**Query fan-out, applied to product copy specifically.** The core
+mechanism (a generative engine decomposes a question into sub-queries
+and retrieves per sub-query) is already documented in
+`../seo/generative-engine-optimization.md` — read that first if it's
+unfamiliar. What's specific to product copywriting: "Best non-toxic
+all-purpose cleaner for a home with a baby and a dog" fans out into
+distinct purchase-decision nodes — is it actually safe (ingredients),
+concentrate vs. ready-to-use (cost/waste trade-off), cost per use,
+third-party certifications, and what real buyers report. None of these
+five nodes is the head keyword "all-purpose cleaner" — the fan-out lives
+entirely in the adjacent purchase decisions a product page rarely
+addresses explicitly. Two measurements worth having on hand for a
+client conversation: AI citations match a traditional Google top-10
+result only 7-12% of the time (the two are citing for different reasons
+entirely), and only about 27% of sub-queries stay consistent across
+repeated searches of the same head question — so the practical target is
+covering the full semantic space of likely purchase-decision
+sub-questions, not identifying and targeting one fixed set.
 
 **Practical fan-out mapping, per product/topic:**
 
 1. Start from the real buyer question, phrased the way a person actually
    types it into an AI assistant (15-20 words, conversational — not a
    3-word keyword string).
-2. List every decision a buyer must resolve before they can act on that
-   question.
-3. Build a dedicated, well-structured, self-contained section (or page)
-   for each resolved decision — each one independently citable, because
-   the engine retrieves and cites at the passage level, not the
-   document level.
+2. List every purchase decision a buyer must resolve before they can act
+   on that question (safety, cost-per-use, fit-for-scenario, social
+   proof — not the product category itself).
+3. Build a dedicated, well-structured, self-contained section for each
+   resolved decision — each one independently citable, because the
+   engine retrieves and cites at the passage level, not the document
+   level.
 4. Reverse-engineer gaps: ask ChatGPT or Perplexity the target head
    query, read the inline citations, and identify which sub-question
    each cited source is actually answering — the sub-questions your
