@@ -20,6 +20,11 @@ found* in general.
   rate, ad CPM) instead of "biggest market" instinct — Morocco vs Gulf vs
   US/UK compared on the numbers that actually decide first-90-day
   survival.
+- **[dropshipping-supplier-platforms.md](dropshipping-supplier-platforms.md)** —
+  choosing a fulfillment/supplier platform (CJ Dropshipping, Spocket,
+  Zendrop, AliExpress/DSers) after the 2026 US tariff and de minimis
+  shift inverted the old "China-direct is cheapest" assumption for
+  US/EU-market operators.
 - **[platform-ranking-algorithms.md](platform-ranking-algorithms.md)** — the
   commerce-specific ranking engines a seller answers to day to day:
   TikTok Shop's Coral (commerce-quality score), Amazon's A10/COSMO
@@ -30,6 +35,11 @@ found* in general.
   a GEO-citing LLM, and a UCP shopping agent simultaneously, without
   three separate content pipelines. Builds on
   `../seo/generative-engine-optimization.md` rather than repeating it.
+- **[geo-copywriting-framework.md](geo-copywriting-framework.md)** — query
+  fan-out mechanics, the P-A-S-B sentence structure, and a documented
+  before/after case for writing product prose that gets cited by
+  ChatGPT, Gemini, and Perplexity specifically — the writing-level
+  companion to this folder's schema note.
 - **[agentic-commerce-protocols.md](agentic-commerce-protocols.md)** — UCP
   (Universal Commerce Protocol) and AP2, the open standards letting an AI
   agent discover a merchant, browse a catalog, and complete checkout
